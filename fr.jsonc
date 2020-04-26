@@ -1,0 +1,52 @@
+{
+    // moderator.py
+    "muting.already_muted": "Cet utilisateur est déjà mute",
+    "muting.not_muted": "Cet utilisateur n'est pas mute",
+    "muting.not_exist": "Mute #{id} n'existe pas",
+    "muting.invalid_date": "La duration/date {end} a été invalide",
+    "muting.adding": "Ajout le mute pour {user}...",
+    "muting.added": "Nouveau mute #{id} crée {user} avec la raison: {reason}",
+    "muting.ended": "Mute #{id} a été terminé. Voir les détails de ce mute avec {command}.",
+
+    "mute.title": "Mute #{id}",
+    "mute.moderator": "Modérateur",
+    "mute.user": "Utilisateur",
+    "mute.start": "Début",
+    "mute.end": "Fin",
+    "mute.end.forever": "Toujours",
+    "mute.comment": "Raison",
+    "mute.collection": "Mutes pour {user}",
+    "mute.summary": "Mute #{id} de {start} à {end}",
+    
+    // Profile
+    "profile.title": "Profil de {user}",
+    "profile.id.discord": "ID de Discord",
+    "profile.id.kolumbao": "ID de Kolumbao",
+    "profile.flags": "Badges",
+    "profile.permissions": "Permissions",
+
+    // network
+    "list.title": "Les parcours de Kolumbao",
+    "list.guide": "En ajouter tout sur ton serveur avec {command}",
+    "list.path.title": "{name} (clé: {key}) - {amount} serveurs",
+    "list.path.not_installed": "Pas installé",
+    "list.path.installed": "Installé (salon: {channel})",
+
+    // Permissions
+    "permission.ATTACHMENT_SEND": "Envoyer des pièces jointes",
+    "permission.EMOJI_SEND": "Envoyer des émojis",
+    "permission.LOCAL_LETTERBOX_INSPECT": "Inspecter les boîtes aux lettres du coin",
+    "permission.LOCAL_LETTERBOX_MODIFY": "Modifier les boîtes aux lettres du coin",
+    "permission.EXTERNAL_LETTERBOX_INSPECT": "Inspecter les boîtes aux lettres extérieures",
+    "permission.EXTERNAL_LETTERBOX_MODIFY": "Modifier les boîtes aux lettres extérieures",
+    "permission.PATH_INSPECT": "Inspecter les parcours",
+    "permission.PATH_MODIFY": "Modifier les parcours",
+    "permission.MUTE_INSPECT": "Inspecter les mutes",
+    "permission.MUTE_MODIFY": "Modifier les mutes",
+    "permission.PERMISSION_INSPECT": "Inspecter les permissions",
+    "permission.PERMISSION_MODIFY": "Modifier les permissions",
+    "permission.BASIC": "Base*",
+    "permission.VIP": "VIP*",
+    "permission.TRAINEE": "Stagiaire*",
+    "permission.MODERATOR": "Modérateur*"
+}

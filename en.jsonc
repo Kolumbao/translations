@@ -1,0 +1,77 @@
+{
+    // moderator.py
+    "muting.already_muted": "This user is already muted!",
+    "muting.not_muted": "This user is not muted",
+    "muting.not_exist": "Mute #{id} does not exist",
+    "muting.invalid_date": "The duration/datetime {end} was invalid",
+    "muting.adding": "Adding mute for {user}...",
+    "muting.added": "New mute #{id} created for {user} with {reason}",
+    "muting.ended": "Mute #{id} was ended. See this mute's details with {command}.",
+
+    "mute.title": "Mute #{id}",
+    "mute.moderator": "Moderator",
+    "mute.user": "User",
+    "mute.start": "Start",
+    "mute.end": "End",
+    "mute.end.forever": "Forever",
+    "mute.comment": "Comment",
+    "mute.collection": "Mutes for {user}",
+    "mute.summary": "Mute #{id} at {start} until {end}",
+
+    // profile.py
+    "profile.title": "{user} profile",
+    "profile.id.discord": "Discord ID",
+    "profile.id.kolumbao": "Kolumbao ID",
+    "profile.flags": "Flags",
+    "profile.permissions": "Permissions",
+    "profile.language_preference": "Language Preference",
+
+    // network
+    "list.title": "Kolumbao Paths",
+    "list.guide": "Add any of these to your server with {command}",
+    "list.path.title": "{name} (key: {key}) - {amount} guilds",
+    "list.path.not_installed": "Not installed",
+    "list.path.installed": "Installed (channel: {channel})",
+
+    "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
+    "setup.already_installed": "This letterbox is already installed! It will be removed and reinstalled. (The channel will not be removed, however).",
+    "setup.finished": "Finished installing! Check out your new channel at {channel} - it will work soon.",
+
+    // Permissions
+    "permissions.available": "All available permissions.",
+    "permissions.title": "Permissions for {user}.",
+    "permissions.not_modify": "You can not modify this person's permissions!",
+    "permissions.not_found": "No permission found.",
+    "permissions.updated": "Permissions updated! See this user's permissions with {command}.",
+    
+    // flags
+    "flags.available": "All available flags.",
+    "flags.not_found": "No flag found.",
+    "flags.updated": "Flags updated! See this user's flags with {command}.",
+
+    // preferences
+    // // language
+    "preferences.language.reset": "Your language preference was reset.",
+    "preferences.language.not_found": "That language was not found.",
+    "preferences.language.set": "Your language preference was set.",
+    "preferences.language.warning": "This change will be visible the next time you use the bot.",
+
+    // permissions
+    "permission.ATTACHMENT_SEND": "Send Attachments",
+    "permission.EMOJI_SEND": "Send Emojis",
+    "permission.LOCAL_LETTERBOX_INSPECT": " Inspect Local Letterboxes",
+    "permission.LOCAL_LETTERBOX_MODIFY": "Modify Local Letterboxes",
+    "permission.EXTERNAL_LETTERBOX_INSPECT": "Inspect External Letterboxes",
+    "permission.EXTERNAL_LETTERBOX_MODIFY": "Modify External Letterboxes",
+    "permission.PATH_INSPECT": "Inspect Paths",
+    "permission.PATH_MODIFY": "Modify Paths",
+    "permission.MUTE_INSPECT": "Inspect Mutes",
+    "permission.MUTE_MODIFY": "Modify Mutes",
+    "permission.PERMISSION_INSPECT": "Inspect Permissions",
+    "permission.PERMISSION_MODIFY": "Modify Permissions",
+    "permission.FLAG_MODIFY": "Modify Flags",
+    "permission.BASIC": "Basic*",
+    "permission.VIP": "VIP*",
+    "permission.TRAINEE": "Trainee*",
+    "permission.MODERATOR": "Moderator*"
+}
