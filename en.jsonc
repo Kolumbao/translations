@@ -103,6 +103,7 @@
     "help.usage": "Usage",
     "help.aliases": "Aliases",
     "help.subcommands": "Subcommands",
+    "help.permissions": "Required Permissions",
     "help.help": "Help",
     "help.commands": "Commands",
     "help.not_found": "This command/category was not found.",
