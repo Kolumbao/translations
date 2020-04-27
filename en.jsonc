@@ -18,6 +18,10 @@
     "mute.collection": "Mutes for {user}",
     "mute.summary": "Mute #{id} at {start} until {end}",
 
+    "message.not_found": "This message was not found in the database.",
+    "message.to_delete": "There are a total of {amount} messages to delete. This may take time.",
+    "message.deleted": "The command resulted in: {deleted} successfully deletions, {failed} failures. {not_found} messages were not found or are already deleted.",
+
     // profile.py
     "profile.title": "{user} profile",
     "profile.id.discord": "Discord ID",
@@ -70,6 +74,7 @@
     "permission.PERMISSION_INSPECT": "Inspect Permissions",
     "permission.PERMISSION_MODIFY": "Modify Permissions",
     "permission.FLAG_MODIFY": "Modify Flags",
+    "permission.MESSAGE_DELETE": "Delete Messages",
     "permission.BASIC": "Basic*",
     "permission.VIP": "VIP*",
     "permission.TRAINEE": "Trainee*",
