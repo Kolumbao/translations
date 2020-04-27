@@ -92,5 +92,49 @@
     "permission.BASIC": "Basic*",
     "permission.VIP": "VIP*",
     "permission.TRAINEE": "Trainee*",
-    "permission.MODERATOR": "Moderator*"
+    "permission.MODERATOR": "Moderator*",
+
+    // help
+    "help.title": "Help Menu",
+    "help.description": "List of commands available.",
+    "help.footer": "For command specific help, use `kb!help` followed by the command name.",
+    "help.arguments": "<arg> denotes a required argument. [arg] denotes an optional argument.",
+    "help.viewing": "Viewing help for {command}.",
+    "help.usage": "Usage",
+    "help.aliases": "Aliases",
+    "help.subcommands": "Subcommands",
+    "help.help": "Help",
+    "help.commands": "Commands",
+    "help.not_found": "This command/category was not found.",
+
+    "help.text.delete": "Delete a message from the bot.",
+    
+    "help.text.mute": "Manage mutes.",
+    "help.text.mute.end": "End a mute.",
+    "help.text.mute.view": "View the details of a mute.",
+    "help.text.mute.add": "Mute a user.",
+    "help.text.mute.list": "Show the mutes for a user.",
+
+    "help.text.permissions": "Manage the permissions of users.",
+    "help.text.permissions.add": "Add a permission to the user.",
+    "help.text.permissions.list": "List all available permissions.",
+    "help.text.permissions.remove": "Remove a permission from a user.",
+    "help.text.permissions.view": "View a user's permissions.",
+
+    "help.text.flags": "Manage flags.",
+    "help.text.flags.list": "List all available flags.",
+    "help.text.flags.add": "Add a flag to a user.",
+    "help.text.flags.remove": "Remove a flag from a user.",
+
+    "help.text.profile": "View your or someone else's profile.",
+    
+    "help.text.team": "View the team and people that make up Kolumbao!",
+
+    "help.text.list": "List possible paths (channels).",
+    
+    "help.text.setup": "Setup a channel in the bot.",
+    
+    "help.text.language": "Set your language preference.",
+
+    "help.text.help": "View help on how to use the bot."
 }
