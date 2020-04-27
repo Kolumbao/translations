@@ -30,6 +30,12 @@
     "profile.permissions": "Permissions",
     "profile.language_preference": "Language Preference",
 
+    "team.title": "The Team",
+    "team.description": "The people that help keep Kolumbao as good as it is.",
+    "team.unknown": "Unknown user",
+    "team.staff": "Staff",
+    "team.translators": "Translators",
+
     // network
     "list.title": "Kolumbao Paths",
     "list.guide": "Add any of these to your server with {command}",
@@ -52,13 +58,21 @@
     "flags.available": "All available flags.",
     "flags.not_found": "No flag found.",
     "flags.updated": "Flags updated! See this user's flags with {command}.",
-
+    
     // preferences
     // // language
     "preferences.language.reset": "Your language preference was reset.",
     "preferences.language.not_found": "That language was not found.",
     "preferences.language.set": "Your language preference was set.",
     "preferences.language.warning": "This change will be visible the next time you use the bot.",
+    
+    // flags
+    "flag.TRAINEE": "Trainee",
+    "flag.MODERATOR": "Moderator",
+    "flag.DEVELOPER": "Developer",
+    "flag.SUPPORTER": "Supporter",
+    "flag.DONATOR": "Donator",
+    "flag.TRANSLATOR": "Translator",
 
     // permissions
     "permission.ATTACHMENT_SEND": "Send Attachments",
