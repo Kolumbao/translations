@@ -1,13 +1,15 @@
 {
     // moderator.py
-    "muting.already_muted": "This user is already muted!",
-    "muting.not_muted": "This user is not muted",
-    "muting.not_exist": "Mute #{id} does not exist",
-    "muting.invalid_date": "The duration/datetime {end} was invalid",
+    "muting.special": "Kolumbao Muting Utility",
+    "muting.already_muted": "This user is already muted (#{id})!",
+    "muting.not_muted": "This user is not muted.",
+    "muting.not_exist": "Mute #{id} does not exist.",
+    "muting.invalid_date": "The duration/datetime {end} was invalid.",
     "muting.adding": "Adding mute for {user}...",
-    "muting.added": "New mute #{id} created for {user} with {reason}",
-    "muting.ended": "Mute #{id} was ended. See this mute's details with {command}.",
-
+    "muting.added": "New mute #{id} created for {user}.",
+    "muting.ended": "Mute #{id} was ended.",
+    "muting.info": "See this mute's details with {command}.",
+    
     "mute.title": "Mute #{id}",
     "mute.moderator": "Moderator",
     "mute.user": "User",
@@ -17,11 +19,12 @@
     "mute.comment": "Comment",
     "mute.collection": "Mutes for {user}",
     "mute.summary": "Mute #{id} at {start} until {end}",
-
+    "mute.page": "Page {idx} of {total}.",
+    
     "message.not_found": "This message was not found in the database.",
     "message.to_delete": "There are a total of {amount} messages to delete. This may take time.",
     "message.deleted": "The command resulted in: {deleted} successfully deletions, {failed} failures. {not_found} messages were not found or are already deleted.",
-
+    
     // profile.py
     "profile.title": "{user} profile",
     "profile.id.discord": "Discord ID",
@@ -29,24 +32,24 @@
     "profile.flags": "Flags",
     "profile.permissions": "Permissions",
     "profile.language_preference": "Language Preference",
-
+    
     "team.title": "The Team",
     "team.description": "The people that help keep Kolumbao as good as it is.",
     "team.unknown": "Unknown user",
     "team.staff": "Staff",
     "team.translators": "Translators",
-
+    
     // network
     "list.title": "Kolumbao Paths",
     "list.guide": "Add any of these to your server with {command}",
     "list.path.title": "{name} (key: {key}) - {amount} guilds",
     "list.path.not_installed": "Not installed",
     "list.path.installed": "Installed (channel: {channel})",
-
+    
     "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
     "setup.already_installed": "This letterbox is already installed! It will be removed and reinstalled. (The channel will not be removed, however).",
     "setup.finished": "Finished installing! Check out your new channel at {channel} - it will work soon.",
-
+    
     // Permissions
     "permissions.available": "All available permissions.",
     "permissions.title": "Permissions for {user}.",
@@ -73,7 +76,7 @@
     "flag.SUPPORTER": "Supporter",
     "flag.DONATOR": "Donator",
     "flag.TRANSLATOR": "Translator",
-
+    
     // permissions
     "permission.ATTACHMENT_SEND": "Send Attachments",
     "permission.EMOJI_SEND": "Send Emojis",
@@ -93,8 +96,17 @@
     "permission.VIP": "VIP*",
     "permission.TRAINEE": "Trainee*",
     "permission.MODERATOR": "Moderator*",
-
+    
+    // tips
+    "tips.kbhelp": "Use the command kb!help for more help!",
+    "tips.staff": "If you're unsure who to trust, see the team with kb!team.",
+    "tips.report": "Got a problem? Use kb!report followed by a description of your problem.",
+    
+    "generic.success": "Success!",
+    "generic.failure": "Error!",
+    
     // help
+    "help.special": "Kolumbao Commands List",
     "help.title": "Help Menu",
     "help.description": "List of commands available.",
     "help.footer": "For command specific help, use `kb!help` followed by the command name.",
