@@ -1,4 +1,17 @@
 {
+    "flags.available": "All available flags.",
+    "flags.not_found": "No flag found.",
+    "flags.updated": "Flags updated! See this user's flags with {command}.",
+
+
+    // Permissions
+    "permissions.available": "All available permissions.",
+    "permissions.title": "Permissions for {user}.",
+    "permissions.not_modify": "You can not modify this person's permissions!",
+    "permissions.not_found": "No permission found.",
+    "permissions.updated": "Permissions updated! See this user's permissions with {command}.",
+
+
     // moderator.py
     "muting.header": "Kolumbao Muting Utility",
     "muting.already_muted": "This user is already muted (#{id})!",
@@ -21,9 +34,24 @@
     "mute.summary": "Mute #{id} at {start} until {end}",
     "mute.page": "Page {idx} of {total}.",
     
+
     "message.not_found": "This message was not found in the database.",
     "message.to_delete": "There are a total of {amount} messages to delete. This may take time.",
     "message.deleted": "The command resulted in: {deleted} successfully deletions, {failed} failures. {not_found} messages were not found or are already deleted.",
+    
+    
+    "list.title": "Kolumbao Paths",
+    "list.guide": "Add any of these to your server with {command}",
+    "list.path.title": "{name} (key: {key}) - {amount} guilds",
+    "list.path.not_installed": "Not installed",
+    "list.path.installed": "Installed (channel: {channel})",
+
+
+    "setup.header": "Kolumbao Setup Utility",
+    "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
+    "setup.already_installed": "This letterbox is already installed! It will be removed and reinstalled. (The channel will not be removed, however).",
+    "setup.finished": "Finished installing! Check out your new channel at {channel} - it will work soon.",
+    
     
     // profile.py
     "profile.title": "{user} profile",
@@ -33,43 +61,43 @@
     "profile.permissions": "Permissions",
     "profile.language_preference": "Language Preference",
     
+
     "team.title": "The Team",
     "team.description": "The people that help keep Kolumbao as good as it is.",
     "team.unknown": "Unknown user",
     "team.staff": "Staff",
     "team.translators": "Translators",
+
+
+    "settings.language.reset": "Your language preference was reset.",
+    "settings.language.not_found": "That language was not found.",
+    "settings.language.set": "Your language preference was set.",
+    "settings.language.warning": "This change will be visible the next time you use the bot.",
     
-    // network
-    "list.title": "Kolumbao Paths",
-    "list.guide": "Add any of these to your server with {command}",
-    "list.path.title": "{name} (key: {key}) - {amount} guilds",
-    "list.path.not_installed": "Not installed",
-    "list.path.installed": "Installed (channel: {channel})",
+
+    "support.header": "Kolumbao Support",
+    "support.help.title": "Help Menu",
+    "support.help.description": "List of commands available.",
+    "support.help.footer": "For command specific help, use `kb!help` followed by the command name.",
     
-    "setup.header": "Kolumbao Setup Utility",
-    "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
-    "setup.already_installed": "This letterbox is already installed! It will be removed and reinstalled. (The channel will not be removed, however).",
-    "setup.finished": "Finished installing! Check out your new channel at {channel} - it will work soon.",
+    "support.help.viewing": "Viewing help for {command}.",
+    "support.help.arguments": "<arg> denotes a required argument. [arg] denotes an optional argument.",
     
-    // Permissions
-    "permissions.available": "All available permissions.",
-    "permissions.title": "Permissions for {user}.",
-    "permissions.not_modify": "You can not modify this person's permissions!",
-    "permissions.not_found": "No permission found.",
-    "permissions.updated": "Permissions updated! See this user's permissions with {command}.",
+    "support.help.usage": "Usage",
+    "support.help.aliases": "Aliases",
+    "support.help.subcommands": "Subcommands",
+    "support.help.permissions": "Required Permissions",
+
+    "support.help.help": "Help",
+    "support.help.help.not_found": "No help message found.",
+
+    "support.help.example": "Usage Examples",
+    "support.help.example.not_found": "No usage examples found.",
     
-    // flags
-    "flags.available": "All available flags.",
-    "flags.not_found": "No flag found.",
-    "flags.updated": "Flags updated! See this user's flags with {command}.",
-    
-    // preferences
-    // // language
-    "preferences.language.reset": "Your language preference was reset.",
-    "preferences.language.not_found": "That language was not found.",
-    "preferences.language.set": "Your language preference was set.",
-    "preferences.language.warning": "This change will be visible the next time you use the bot.",
-    
+    "support.help.commands": "Commands",
+    "support.help.not_found": "This command/category was not found.",
+
+
     // flags
     "flag.TRAINEE": "Trainee",
     "flag.MODERATOR": "Moderator",
@@ -77,6 +105,7 @@
     "flag.SUPPORTER": "Supporter",
     "flag.DONATOR": "Donator",
     "flag.TRANSLATOR": "Translator",
+    
     
     // permissions
     "permission.ATTACHMENT_SEND": "Send Attachments",
@@ -104,51 +133,5 @@
     "tips.report": "Got a problem? Use kb!report followed by a description of your problem.",
     
     "generic.success": "Success!",
-    "generic.error": "Error!",
-    
-    // help
-    "help.header": "Kolumbao Commands List",
-    "help.title": "Help Menu",
-    "help.description": "List of commands available.",
-    "help.footer": "For command specific help, use `kb!help` followed by the command name.",
-    "help.arguments": "<arg> denotes a required argument. [arg] denotes an optional argument.",
-    "help.viewing": "Viewing help for {command}.",
-    "help.usage": "Usage",
-    "help.aliases": "Aliases",
-    "help.subcommands": "Subcommands",
-    "help.permissions": "Required Permissions",
-    "help.help": "Help",
-    "help.commands": "Commands",
-    "help.not_found": "This command/category was not found.",
-
-    "help.text.delete": "Delete a message from the bot.",
-    
-    "help.text.mute": "Manage mutes.",
-    "help.text.mute.end": "End a mute.",
-    "help.text.mute.view": "View the details of a mute.",
-    "help.text.mute.add": "Mute a user.",
-    "help.text.mute.list": "Show the mutes for a user.",
-
-    "help.text.permissions": "Manage the permissions of users.",
-    "help.text.permissions.add": "Add a permission to the user.",
-    "help.text.permissions.list": "List all available permissions.",
-    "help.text.permissions.remove": "Remove a permission from a user.",
-    "help.text.permissions.view": "View a user's permissions.",
-
-    "help.text.flags": "Manage flags.",
-    "help.text.flags.list": "List all available flags.",
-    "help.text.flags.add": "Add a flag to a user.",
-    "help.text.flags.remove": "Remove a flag from a user.",
-
-    "help.text.profile": "View your or someone else's profile.",
-    
-    "help.text.team": "View the team and people that make up Kolumbao!",
-
-    "help.text.list": "List possible paths (channels).",
-    
-    "help.text.setup": "Setup a channel in the bot.",
-    
-    "help.text.language": "Set your language preference.",
-
-    "help.text.help": "View help on how to use the bot."
+    "generic.error": "Error!"
 }
