@@ -5,7 +5,7 @@
     "muting.not_exist": "Mute #{id} n'existe pas",
     "muting.invalid_date": "La duration/date {end} a été invalide",
     "muting.adding": "Ajout le mute pour {user}...",
-    "muting.added": "Nouveau mute #{id} crée {user} avec la raison: {reason}",
+    "muting.added": "Nouveau mute #{id} crée pour {user}.",
     "muting.ended": "Mute #{id} a été terminé. Voir les détails de ce mute avec {command}.",
 
     "mute.title": "Mute #{id}",

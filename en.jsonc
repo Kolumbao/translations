@@ -46,6 +46,7 @@
     "list.path.not_installed": "Not installed",
     "list.path.installed": "Installed (channel: {channel})",
     
+    "setup.special": "Kolumbao Setup Utility",
     "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
     "setup.already_installed": "This letterbox is already installed! It will be removed and reinstalled. (The channel will not be removed, however).",
     "setup.finished": "Finished installing! Check out your new channel at {channel} - it will work soon.",
@@ -103,7 +104,7 @@
     "tips.report": "Got a problem? Use kb!report followed by a description of your problem.",
     
     "generic.success": "Success!",
-    "generic.failure": "Error!",
+    "generic.error": "Error!",
     
     // help
     "help.special": "Kolumbao Commands List",
