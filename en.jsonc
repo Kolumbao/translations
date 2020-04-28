@@ -1,6 +1,6 @@
 {
     // moderator.py
-    "muting.special": "Kolumbao Muting Utility",
+    "muting.header": "Kolumbao Muting Utility",
     "muting.already_muted": "This user is already muted (#{id})!",
     "muting.not_muted": "This user is not muted.",
     "muting.not_exist": "Mute #{id} does not exist.",
@@ -46,7 +46,7 @@
     "list.path.not_installed": "Not installed",
     "list.path.installed": "Installed (channel: {channel})",
     
-    "setup.special": "Kolumbao Setup Utility",
+    "setup.header": "Kolumbao Setup Utility",
     "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
     "setup.already_installed": "This letterbox is already installed! It will be removed and reinstalled. (The channel will not be removed, however).",
     "setup.finished": "Finished installing! Check out your new channel at {channel} - it will work soon.",
@@ -107,7 +107,7 @@
     "generic.error": "Error!",
     
     // help
-    "help.special": "Kolumbao Commands List",
+    "help.header": "Kolumbao Commands List",
     "help.title": "Help Menu",
     "help.description": "List of commands available.",
     "help.footer": "For command specific help, use `kb!help` followed by the command name.",
