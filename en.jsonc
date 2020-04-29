@@ -60,6 +60,9 @@
     "profile.flags": "Flags",
     "profile.permissions": "Permissions",
     "profile.language_preference": "Language Preference",
+    "profile.total_sent": "# of messages",
+    "profile.last_seen": "Last seen",
+    "profile.last_seen.never": "Never",
     
 
     "team.title": "The Team",
