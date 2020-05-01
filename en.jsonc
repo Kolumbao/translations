@@ -107,11 +107,12 @@
     "support.report.sent": "Your report was successfully sent. We will manage it and contact you if needed.",
 
 
-    "team.title": "The Team",
-    "team.description": "The people that help keep Kolumbao as good as it is.",
-    "team.unknown": "Unknown user",
-    "team.staff": "Staff",
-    "team.translators": "Translators",
+    "support.team.title": "The Team",
+    "support.team.description": "The people that help keep Kolumbao as good as it is.",
+    "support.team.unknown": "Unknown user",
+
+    
+    "support.guild.invite": "Join the official Kolumbao guild here: {link}",
 
 
     "interaction.invalid_response": "That response is not valid!",
@@ -164,6 +165,7 @@
     "help.help_text": "Get help on the bot's commands and how to use them",
     "report.help_text": "Report a problem to the staff",
     "team.help_text": "View the staff member's and special members of the Kolumbao community",
+    "guild.help_text": "Get the link for the official Kolumbao support server",
 
 
     // flags
