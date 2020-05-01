@@ -40,19 +40,6 @@
     "message.deleted": "The command resulted in: {deleted} successfully deletions, {failed} failures. {not_found} messages were not found or are already deleted.",
     
     
-    "list.title": "Kolumbao Paths",
-    "list.guide": "Add any of these to your server with {command}",
-    "list.path.title": "{name} (key: {key}) - {amount} guilds",
-    "list.path.not_installed": "Not installed",
-    "list.path.installed": "Installed (channel: {channel})",
-
-
-    "setup.header": "Kolumbao Setup Utility",
-    "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
-    "setup.already_installed": "This letterbox is already installed! It will be removed and reinstalled. (The channel will not be removed, however).",
-    "setup.finished": "Finished installing! Check out your new channel at {channel} - it will work soon.",
-    
-    
     // profile.py
     "profile.title": "{user} profile",
     "profile.id.discord": "Discord ID",
@@ -65,19 +52,36 @@
     "profile.last_seen.never": "Never",
     
 
-    "team.title": "The Team",
-    "team.description": "The people that help keep Kolumbao as good as it is.",
-    "team.unknown": "Unknown user",
-    "team.staff": "Staff",
-    "team.translators": "Translators",
-
-
     "settings.language.reset": "Your language preference was reset.",
     "settings.language.not_found": "That language was not found.",
     "settings.language.set": "Your language preference was set.",
     "settings.language.warning": "This change will be visible the next time you use the bot.",
-    
 
+
+    "wizard.title": "Kolumbao Paths",
+    "wizard.description": "Pick a path to manage",
+    "wizard.path.title": "{name} (#{key}) in {amount} guilds",
+    "wizard.path.not_installed": "Not installed",
+    "wizard.path.installed": "Installed (channel: {channel})",
+    
+    "wizard.path.amount": "Amount",
+    "wizard.path.instructions.reset": "Respond with `{emoji}` to reset this letterbox.",
+    "wizard.path.instructions.remove": "Respond with `{emoji}` to remove this letterbox.",
+    "wizard.path.instructions.install": "Respond with `{emoji}` to install this letterbox",
+    "wizard.path.instructions": "Respond to the prompt below to manage.",
+    "wizard.removal.failed": "We failed to remove this letterbox! The developers have been notified.",
+    "wizard.removal.success": "The letterbox **{name}** was successfully removed!",
+    "wizard.install.existing_channel": "Would you like to install this path to an existing channel?",
+    "wizard.install.eixsting_channel.guide": "Respond by mentioning the channel or \"{none}\" to create a new channel.",
+    "wizard.install.complete": "The installation was successful. Check it out here: {channel}.",
+
+
+    "setup.header": "Kolumbao Setup Utility",
+    "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
+    "setup.already_installed": "This letterbox is already installed! It will be removed and reinstalled. (The channel will not be removed, however).",
+    "setup.finished": "Finished installing! Check out your new channel at {channel} - it will work soon.",
+    
+    
     "support.header": "Kolumbao Support",
     "support.help.title": "Help Menu",
     "support.help.description": "List of commands available.",
@@ -99,6 +103,67 @@
     
     "support.help.commands": "Commands",
     "support.help.not_found": "This command/category was not found.",
+
+    "support.report.sent": "Your report was successfully sent. We will manage it and contact you if needed.",
+
+
+    "team.title": "The Team",
+    "team.description": "The people that help keep Kolumbao as good as it is.",
+    "team.unknown": "Unknown user",
+    "team.staff": "Staff",
+    "team.translators": "Translators",
+
+
+    "interaction.invalid_response": "That response is not valid!",
+    "interaction.ask_valid_response": "Please respond with one of the follow: {options}; or with \"{cancel}\" to cancel.",
+    "interaction.timed_out": "You took too long to respond, so the prompt was automatically cancelled.",
+    "interaction.cancel": "cancel",
+    "interaction.exited": "The prompted was cancelled!",
+    "interaction.none": "none",
+
+    
+    "error.permissions": "You are misisng at least one of the following Kolumbao permissions: {permissions}",
+    "error.bot_missing_permissions": "The bot is missing at least one of the following permissions: {permissions}",
+    "error.user_missing_permissions": "You are missing at least one of the following permissions: {permissions}",
+    "error.invalid_arguments": "One or more of the required arguments were invalid/non-existent. Please consult the help menu below for assistance",
+    "error.not_found": "That command was not found",
+    "error.other": "Another error occured (`{name}`). The developers have been notified.",
+
+    
+    // SPECIFIC HELP
+    /* 
+        .help_text is the help text for each command.
+        .example_text is the example text for each command.
+    */
+    "flags.help_text": "Manage user flags",
+    "flags.list.help_text": "List the available flags",
+    "flags.add.help_text": "Add flags to a user",
+    "flags.remove.help_text": "Remove flags from a user",
+    "permissions.help_text": "Manage user permissions",
+    "permisisons.view.help_text": "View a user's permissions (and resultant permission number)",
+    "permissions.list.help_text": "List a user's permissions",
+    "permissions.remove.help_text": "Remove permissions from a user",
+    "permissions.add.help_text": "Add permissions to a user",
+    
+    "mute.help_text": "Mute a user",
+    "unmute.help_text": "Unmute a user",
+    "record.help_text": "View the details of a mute",
+    "infractions.help_text": "View the mute history of a user",
+    "delete.help_text": "Delete a message across the servers",
+
+    "wizard.help_text": "Use the wizard to setup/remove a path",
+    "wizard.remove.help_text": "Remove a path using the wizard",
+    "wizard.reset.help_text": "Remove and install a path (runs `kb!wizard remove` and `kb!wizard install` with the correct details for you)",
+    "wizard.view.help_text": "Manage a specific path",
+    "wizard.install.help_text": "Install a path using the wizard",
+
+    "profile.help_text": "View a user's profile",
+    
+    "language.help_text": "Change your preferred interface language",
+    
+    "help.help_text": "Get help on the bot's commands and how to use them",
+    "report.help_text": "Report a problem to the staff",
+    "team.help_text": "View the staff member's and special members of the Kolumbao community",
 
 
     // flags
