@@ -147,7 +147,7 @@
         .help_text is the help text for each command.
         .example_text is the example text for each command.
     */
-    "flags.help_text": "Gérer les badges des utilistauers",
+    "flags.help_text": "Gérer les badges des utilisateurs",
     "flags.list.help_text": "Lister les badges disponibles",
     "flags.add.help_text": "Ajouter un badge à un utilisateur",
     "flags.remove.help_text": "Supprimer les badges d'un utilisateur",
