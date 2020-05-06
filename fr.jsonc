@@ -87,9 +87,9 @@
     "ping.current_latency": "La latence actuelle entre le bot et Discord est de {latency:.2f}ms",
 
     "setup.header": "Utilitaire de configuration de Kolumbao",
-    "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
+    "setup.not_found": "Ce chemin n'a pas été trouvé. Utilisez {command} pour voir les options possibles.",
     "setup.already_installed": "Cette boîte aux lettres est déjà installée ! Elle sera retirée et réinstallée. (Le channel ne sera toutefois pas supprimé).",
-    "setup.finished": "Finished installing! Check out your new channel at {channel} - it will work soon.",
+    "setup.finished": "L'installation s'est terminée ! Jetez un coup d'oeil à {channel} - il va bientôt marcher",
     
     
     "support.header": "Soutien de Kolumbao",
@@ -104,12 +104,12 @@
     "support.help.aliases": "Alias",
     "support.help.subcommands": "Sous-commandes",
     "support.help.use_subcommand": "Cette commande doit être utilisée via ses sous-commandes",
-    "support.help.permissions": "Required Permissions",
+    "support.help.permissions": "Les permissions requies",
 
-    "support.help.help": "Help",
+    "support.help.help": "Aide",
     "support.help.help.not_found": "Aucun message d'aide trouvé.",
 
-    "support.help.example": "Usage Examples",
+    "support.help.example": "Exemples d'utilisation",
     "support.help.example.not_found": "Aucun exemple d'utilisation trouvé.",
     
     "support.help.commands": "Commands",
@@ -190,7 +190,7 @@
     
     // permissions
     "permission.ATTACHMENT_SEND": "Envoyer des pièces jointes",
-    "permission.EMOJI_SEND": "Envoyer des emojis",
+    "permission.EMOJI_SEND": "Envoyer des émojis",
     "permission.LOCAL_LETTERBOX_INSPECT": "Regarder les boîtes aux lettres locales",
     "permission.LOCAL_LETTERBOX_MODIFY": "Modifier les boîtes aux lettres locales",
     "permission.EXTERNAL_LETTERBOX_INSPECT": "Regarder les boîtes aux lettres externes",
