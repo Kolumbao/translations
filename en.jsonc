@@ -72,9 +72,18 @@
     "wizard.removal.failed": "We failed to remove this letterbox! The developers have been notified.",
     "wizard.removal.success": "The letterbox **{name}** was successfully removed!",
     "wizard.install.existing_channel": "Would you like to install this path to an existing channel?",
-    "wizard.install.eixsting_channel.guide": "Respond by mentioning the channel or \"{none}\" to create a new channel.",
+    "wizard.install.existing_channel.guide": "Respond by mentioning the channel or \"{none}\" to create a new channel.",
     "wizard.install.complete": "The installation was successful. Check it out here: {channel}.",
 
+    "stats.title": "Statistics for Kolumbao",
+    "stats.description": "Here are the current statistics for Kolumbao",
+    "stats.for": "Stats for {name}",
+    "stats.letterboxes": "{total} letterboxes",
+    "stats.messages": "{total} messages",
+    "stats.total_messages": "Total messages on Kolumbao",
+
+    "ping.title": "Current ping",
+    "ping.current_latency": "The current latency between the bot and Discord is {latency}ms",
 
     "setup.header": "Kolumbao Setup Utility",
     "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
@@ -93,6 +102,7 @@
     "support.help.usage": "Usage",
     "support.help.aliases": "Aliases",
     "support.help.subcommands": "Subcommands",
+    "support.help.use_subcommand": "This command must be used via its subcommands",
     "support.help.permissions": "Required Permissions",
 
     "support.help.help": "Help",
