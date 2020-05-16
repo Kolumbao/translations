@@ -85,6 +85,8 @@
 
     "ping.title": "Current ping",
     "ping.current_latency": "The current latency between the bot and Discord is {latency:.2f}ms",
+    "ping.message": "Message delay",
+    "ping.delay": "The average delay for mesages across the Kolumbao platform during the last {days} days is {delay:.2f}ms",
 
     "setup.header": "Kolumbao Setup Utility",
     "setup.not_found": "This path wasn't found. Use {command} to see possible options.",
