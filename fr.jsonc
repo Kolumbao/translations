@@ -142,6 +142,16 @@
     "error.other": "Une erreur inconnue s'est produite (`{name}`). Les développeurs ont été avertis.",
 
     "pub.rules.text": "**Voici les règles pour tous les salons Kolumbao :**\n\n{global_rules}\n\n**Et voici les règles pour ce salon :**\n\n{rules}",
+    "pub.rules.rule.1": "N'enfreignez pas les ToS de Discord.",
+    "pub.rules.rule.2": "Aucun de spam du tout. AutoModerator vous regarde toujours.",
+    "pub.rules.rule.3": "Soyez courtois ! Pas de racisme, de sexisme, de bigoterie, de haine ou de discrimination envers les LGBTQ+.",
+    "pub.rules.rule.4": "Le contenu de votre serveur n'est pas le contenu de Kolumbao.",
+    "pub.rules.rule.5": "Pas de contenu répugnant, dérangeant, haineux, gore ou gravement dérangeant.",
+    "pub.rules.rule.6": "Les pubs doivent être espacées d'une heure, et donnez des raisons de se rejoindre !",
+    "pub.rules.rule.7": "Pas de spoilers pour les sorties récentes.",
+    "pub.rules.rule.8": "Faites appel ou déposez une plainte sur le serveur support.",
+    "pub.rules.rule.9": "N'essayez pas de trouver des failles dans ces règles. Nous sommes des humains et nous savons quand vous essayez de vous en tirer.",
+    
     "pub.explanation.text": "**Voici une explication rapide:**\n\n- C'est un bot qui vous permet de parler à d'autres gens sans être sur le même serveur qu'eux.**\n- Ces \"bots\" ne sont pas des bots, ce sont d'autres gens d'autres serveurs.**\n- Kolumbao utilise un peu de magie nommé \"webhooks\" pour partager vos messages à travers les serveurs.**\n- Après leur nom, certaines personnes ont des emojis, ceux-ci ont tous une signification différente.",
 
     

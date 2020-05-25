@@ -144,8 +144,17 @@
     "error.other": "Another error occured (`{name}`). The developers have been notified.",
 
     "pub.rules.text": "**Here are the rules for all Kolumbao channels:**\n\n{global_rules}\n\n**And here are the rules for this channel:**\n\n{rules}",
+    "pub.rules.rule.1": "Do not break Discord ToS/Community Guidelines.",
+    "pub.rules.rule.2": "No spamming at all. AutoModerator is watching you.",
+    "pub.rules.rule.3": "Be civil! No racism, sexism, bigotry, LGBTQ+ hate or discrimination.",
+    "pub.rules.rule.4": "Your server's content isn't Kolumbao content.",
+    "pub.rules.rule.5": "No repulsive, disturbing, hatefull, gore-y or severely unnerving content.",
+    "pub.rules.rule.6": "Advertisements 1 hour apart, give some reason to join.",
+    "pub.rules.rule.7": "No spoilers for recent stuff.",
+    "pub.rules.rule.8": "Appeal or complain on the support server.",
+    "pub.rules.rule.9": "Do not try to find loopholes in these rules. We are humans and know when you're trying to get away with something.",
+    
     "pub.explanation.text": "**Here's a quick explanation:**\n\n- This is a bot that allows you to talk to others without being in the same server as them.\n- These \"bots\" aren't bots, they're other people from other guilds.\n- Kolumbao uses a bit of magic called \"webhooks\" to share your messages across servers.\n\n- After their names, certain people have emojis, these all mean different things.",
-
     
     // SPECIFIC HELP
     /* 
