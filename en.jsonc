@@ -154,7 +154,7 @@
     "pub.rules.rule.8": "Appeal or complain on the support server.",
     "pub.rules.rule.9": "Do not try to find loopholes in these rules. We are humans and know when you're trying to get away with something.",
     
-    "pub.explanation.text": "**Here's a quick explanation:**\n\n- This is a bot that allows you to talk to others without being in the same server as them.\n- These \"bots\" aren't bots, they're other people from other guilds.\n- Kolumbao uses a bit of magic called \"webhooks\" to share your messages across servers.\n\n- After their names, certain people have emojis, these all mean different things.",
+    "pub.explanation.text": "**Here's a quick explanation:**\n\n- This is a bot that allows you to talk to others without being in the same server as them.\n- These \"bots\" aren't bots, they're other people from other guilds.\n- Kolumbao uses a bit of magic called \"webhooks\" to share your messages across servers.\n- After their names, certain people have emojis, these all mean different things.",
     
     // SPECIFIC HELP
     /* 
