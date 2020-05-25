@@ -141,6 +141,9 @@
     "error.not_found": "Cette commande n'a pas été trouvée",
     "error.other": "Une erreur inconnue s'est produite (`{name}`). Les développeurs ont été avertis.",
 
+    "pub.rules.text": "**Voici les règles pour tous les salons Kolumbao :**\n\n{global_rules}\n\n**Et voici les règles pour ce salon :**\n\n{rules}",
+    "pub.explanation.text": "**Voici une explication rapide:**\n\n- C'est un bot qui vous permet de parler à d'autres gens sans être sur le même serveur qu'eux.**\n- Ces \"bots\" ne sont pas des bots, ce sont d'autres gens d'autres serveurs.**\n- Kolumbao utilise un peu de magie nommé \"webhooks\" pour partager vos messages à travers les serveurs.**\n- Après leur nom, certaines personnes ont des emojis, ceux-ci ont tous une signification différente.",
+
     
     // SPECIFIC HELP
     /* 

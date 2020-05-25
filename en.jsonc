@@ -143,6 +143,9 @@
     "error.not_found": "That command was not found",
     "error.other": "Another error occured (`{name}`). The developers have been notified.",
 
+    "pub.rules.text": "**Here are the rules for all Kolumbao channels:**\n\n{global_rules}\n\n**And here are the rules for this channel:**\n\n{rules}",
+    "pub.explanation.text": "**Here's a quick explanation:**\n\n- This is a bot that allows you to talk to others without being in the same server as them.\n- These \"bots\" aren't bots, they're other people from other guilds.\n- Kolumbao uses a bit of magic called \"webhooks\" to share your messages across servers.\n\n- After their names, certain people have emojis, these all mean different things.",
+
     
     // SPECIFIC HELP
     /* 
