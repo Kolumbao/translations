@@ -141,6 +141,18 @@
     "error.not_found": "Ese comando no se encontró",
     "error.other": "Se produjo otro error (`{name}`). Los desarrolladores han sido notificados.",
 
+    "pub.rules.text": "**Aquí están las reglas para todos los canales de Kolumbao:**\n\n{global_rules}\n\n**Y aquí están las reglas para este canal:**\n\n{rules}",
+    "pub.rules.rule.1": "No rompa el ToS de Discord/Principios de la Comunidad..",
+    "pub.rules.rule.2": "Sin spam en absoluto. AutoModerator te está mirando.",
+    "pub.rules.rule.3": "¡Sé civil! No racismo, sexismo, intolerancia, LGBTQ+ odio o discriminación.",
+    "pub.rules.rule.4": "El contenido de su servidor no es contenido de Kolumbao.",
+    "pub.rules.rule.5": "Sin contenido repulsivo, perturbador, odioso, sangriento o severamente desconcertante.",
+    "pub.rules.rule.6": "Anuncios con 1 hora de diferencia, da alguna razón para unirte.",
+    "pub.rules.rule.7": "Sin spoilers de cosas recientes.",
+    "pub.rules.rule.8": "Apela o queja en el servidor de soporte.",
+    "pub.rules.rule.9": "No intente encontrar lagunas en estas reglas. Somos humanos y sabemos cuándo intentas salirte con la tuya.",
+    
+    "pub.explanation.text": "**Aquí hay una explicación rápida:**\n\n- Este es un bot que te permite hablar con otros sin estar en el mismo servidor que ellos.\n- Estos \"bots\" no son bots, ellos ' re otras personas de otros gremios.\n- Kolumbao usa un poco de magia llamada \"webhooks\" para compartir sus mensajes entre servidores.\n- Después de sus nombres, ciertas personas tienen emojis, todo esto significa cosas diferentes.",
     
     // SPECIFIC HELP
     /* 
