@@ -1,0 +1,232 @@
+{
+    "flags.available": ".جميع الأعلام المتاحة",
+    "flags.not_found": "لم يتم العثور على علم.",
+    "flags.updated": ".{command}تم تحديث الأعلام! انظر علامات هذا المستخدم مع",
+
+
+    // Permissions
+    "permissions.available": "جميع الأذونات المتاحة.",
+    "permissions.title": ".{user} أذونات",
+    "permissions.not_modify": "!لا يمكنك تعديل أذونات هذا الشخص",
+    "permissions.not_found": ".لم يتم العثور على إذن",
+    "permissions.updated": " .{command} تم تحديث الأذونات! راجع أذونات هذا المستخدم مع",
+
+
+    // moderator.py
+    "muting.header": "فائدة كولمباو كتم الصوت",
+    "muting.already_muted": " !(# {id})تم تجاهل هذا المستخدم بالفعل",
+    "muting.not_muted": ".لم يتم كتم صوت هذا المستخدم",
+    "muting.not_exist": ".غير موجود #{id} كتم",
+    "muting.invalid_date": ".كان غير صالح {end} المدة / التاريخ والوقت",
+    "muting.adding": "...{user}مضيفا كتم الصوت ل",
+    "muting.added": " .{user}خلقت ل #{id} كتم جديد",
+    "muting.ended": " .انتهت #{id} كتم",
+    "muting.info": ".{command}انظر تفاصيل هذا كتم الصوت مع",
+    
+    "mute.title": " #{id} كتم",
+    "mute.moderator": "مشرف",
+    "mute.user": "المستعمل",
+    "mute.start": "بداية",
+    "mute.end": "النهاية",
+    "mute.end.forever": "إلى الأبد",
+    "mute.comment": "تعليق",
+    "mute.collection": "{user} كتم الصوت",
+    "mute.summary": "{end} حتى {start} في #{id} كتم",
+    "mute.page": ".{total} من {idx} الصفحة",
+    
+
+    "message.not_found": ".لم يتم العثور على هذه الرسالة في قاعدة البيانات",
+    "message.to_delete": ".الرسائل المراد حذفها. قد يستغرق هذا بعض الوقت {amount} هناك ما مجموعه",
+    "message.deleted": ".الفشل {failed} ،عمليات الحذف بنجاح {deleted} :نتج عن الأمر {not_found} messages were not found or are already deleted.",
+    
+    
+    // profile.py
+    "profile.title": "الملف الشخصي {user}",
+    "profile.id.discord": "هوية ديسكورد",
+    "profile.id.kolumbao": "هويد كولمباو ",
+    "profile.flags": "الأعلام",
+    "profile.permissions": "أذونات",
+    "profile.language_preference": "تفضيل اللغات",
+    "profile.total_sent": "من الرسائل #",
+    "profile.last_seen": "اخر ظهور",
+    "profile.last_seen.never": "أبدن",
+    
+
+    "settings.language.reset": ".تم إعادة تعيين تفضيل لغتك",
+    "settings.language.not_found": ".لم يتم العثور على هذه اللغة",
+    "settings.language.set": ".تم تعيين تفضيل لغتك",
+    "settings.language.warning": ".سيكون هذا التغيير مرئيًا في المرة التالية التي تستخدم فيها البوت",
+
+
+    "wizard.title": "مسارات كولومباو",
+    "wizard.description": "اختر مسارًا للإدارة",
+    "wizard.path.title": "{name} (#{key}) في {amount} النقابات",
+    "wizard.path.not_installed": "غير مثبت",
+    "wizard.path.installed": "(channel: {channel}) المثبتة",
+    
+    "wizard.path.amount": "كمية",
+    "wizard.path.instructions.reset": ".لإعادة تعيين علبة البريد هذه `{emoji}` الرد",
+    "wizard.path.instructions.remove": "لإزالة صندوق الرسائل هذا `{emoji}` الرد",
+    "wizard.path.instructions.install": "لتثبيت صندوق الرسائل هذا `{emoji}` الرد",
+    "wizard.path.instructions": ".استجب للمطالبة أدناه للإدارة",
+    "wizard.removal.failed": ".فشلنا في إزالة علبة البريد هذه! تم إخطار المطورين",
+    "wizard.removal.success": "!تمت إزالته بنجاح **{name}** صندوق الرسائل",
+    "wizard.install.existing_channel": "هل ترغب في تثبيت هذا المسار على قناة موجودة؟",
+    "wizard.install.existing_channel.guide": ".لإنشاء قناة جديدة \"{none}\" الرد بذكر القناة أو",
+    "wizard.install.complete": ".{channel} :تم التثبيت بنجاح. تحقق من ذلك هنا",
+
+    "stats.header": "أداة الإحصائيات",
+    "stats.title": "إحصائيات كولومباو",
+    "stats.description": "فيما يلي الإحصائيات الحالية لكولومباو",
+    "stats.for": "{name}احصائيات لـ",
+    "stats.letterboxes": "علب الرسائل {total}",
+    "stats.messages": "الرسائل {total}",
+    "stats.total_messages": "إجمالي الرسائل على Kolumbao",
+
+    "ping.title": "بينغ الحالي",
+    "ping.current_latency": "{latency:.2f}ms الكمون الحالي بين البوت و Discord",
+    "ping.message": "تأخير الرسالة",
+    "ping.delay": "{messages} متوسط التأخير للرسائل عبر منصة Kolumbao خلال الأخير {delay:.2f}ms الرسائل",
+
+    "setup.header": "Kolumbao أداة إعداد",
+    "setup.not_found": ".لمعرفة الخيارات الممكنة {command} لم يتم العثور على هذا المسار. استعمال",
+    "setup.already_installed": "(تم تثبيت صندوق الرسائل هذا بالفعل! سيتم إزالته وإعادة تثبيته. (لن تتم إزالة القناة",
+    "setup.finished": ".ستعمل قريبا - {channel} انتهى التثبيت! تحقق من قناتك الجديدة على",
+    
+    
+    "support.header": "دعم Kolumbao",
+    "support.help.title": "قائمة المساعدة",
+    "support.help.description": ".قائمة الأوامر المتاحة",
+    "support.help.footer": "للحصول على تعليمات خاصة بالأمر ، استخدم `kb!help` متبوعًا باسم الأمر.",
+    
+    "support.help.viewing": ".{command}عرض المساعدة لـ",
+    "support.help.arguments": "<arg> .يدل على حجة مطلوبة [arg] .يدل على حجة اختيارية",
+    
+    "support.help.usage": "الاستخدام",
+    "support.help.aliases": "اسماء مستعارة",
+    "support.help.subcommands": "أوامر فرعية",
+    "support.help.use_subcommand": "يجب استخدام هذا الأمر عبر أوامرها الفرعية",
+    "support.help.permissions": "الأذونات المطلوبة",
+
+    "support.help.help": "مساعدة",
+    "support.help.help.not_found": "لم يتم العثور على رسالة مساعدة.",
+
+    "support.help.example": "أمثلة على الاستخدام",
+    "support.help.example.not_found": "لم يتم العثور على أمثلة للاستخدام.",
+    
+    "support.help.commands": "أوامر",
+    "support.help.not_found": "لم يتم العثور على هذا الأمر / الفئة.",
+
+    "support.report.sent": "تم إرسال تقريرك بنجاح. سنديره ونتصل بك إذا لزم الأمر.",
+
+
+    "support.team.title": "الفريق",
+    "support.team.description": "الأشخاص الذين يساعدون في إبقاء Kolumbao جيدًا كما هو.",
+    "support.team.unknown": "مستخدم غير معروف",
+
+    
+    "support.guild.invite": "{link} :انضم إلى نقابة Kolumbao الرسمية هنا",
+
+
+    "interaction.invalid_response": "هذا الرد غير صالح!",
+    "interaction.ask_valid_response": ".لالغاء \"{cancel}\" أو مع ;{options} :يرجى الرد بأحد الأمور التالية",
+    "interaction.timed_out": "!لقد استغرقت وقتًا طويلاً للاستجابة ، لذلك تم إلغاء المطالبة تلقائيًا",
+    "interaction.cancel": "إلغاء",
+    "interaction.exited": "!تم إلغاء المطالبة",
+    "interaction.none": "لا شيء",
+
+    
+    "error.permissions": "{permissions} إنك Kolumbao تفتقد واحدًا على الأقل من أذونات  التالية:",
+    "error.bot_missing_permissions": "{permissions} :يفتقد الروبوت إلى واحد على الأقل من الأذونات التالية",
+    "error.user_missing_permissions": "{permissions} :إنك تفتقد واحدًا على الأقل من الأذونات التالية",
+    "error.invalid_arguments": "كانت واحدة أو أكثر من الوسيطات المطلوبة غير صالحة / غير موجودة. يرجى الرجوع إلى قائمة المساعدة أدناه للمساعدة",
+    "error.not_found": "لم يتم العثور على هذا الأمر",
+    "error.other": " .تم إخطار المطورين .(`{name}`) حدث خطأ آخر",
+
+    "pub.rules.text": "**:وإليك قواعد هذه القناة**\n\n{global_rules}\n\n**:Kolumbao فيما يلي قواعد جميع قنوات**\n\n{rules}",
+    "pub.rules.rule.1": ".شروط الخدمة Discord / تواصل اجتماعي لا تكسر إرشادات",
+    "pub.rules.rule.2": " .لا البريد المزعج على الإطلاق يراقبك تلقائي مشرف",
+    "pub.rules.rule.3": ".كن مدني! لا عنصرية أو تحيز جنسي أو تعصب أو كراهية أو تمييز",
+    "pub.rules.rule.4": ".Kolumbao محتوى الخادم الخاص بك ليس محتوى",
+    "pub.rules.rule.5": ".لا محتوى مثير للاشمئزاز أو مزعج أو يحض على الكراهية أو دموي أو مثير للقلق الشديد",
+    "pub.rules.rule.6": ".إعلانات ساعة واحدة على حدة ، وإعطاء سبب للانضمام",
+    "pub.rules.rule.7": ".لا المفسدين للأشياء الأخيرة",
+    "pub.rules.rule.8": ".الاستئناف أو تقديم شكوى على خادم الدعم",
+    "pub.rules.rule.9": "لا تحاول إيجاد ثغرات في هذه القواعد. نحن بشر ونعرف عندما تحاول الهروب بشيء ما.",
+    
+    "pub.explanation.text": "**:إليك شرح سريع**\n\n- هذا برنامج روبوت يسمح لك بالتحدث مع الآخرين دون أن تكون في نفس الخادم الخاص بهم.\n- These \"bots\" aren't bots .إنهم أناس آخرون من نقابات أخرى\n- Kolumbao uses a bit of magic called \"webhooks\" to share your messages across servers.\n- .بعد أسمائهم ، بعض الأشخاص لديهم رموز تعبيرية ، كل هذه تعني أشياء مختلفة",
+    
+    // SPECIFIC HELP
+    /* 
+        .help_text is the help text for each command.
+        .example_text is the example text for each command.
+    */
+    "flags.help_text": "إدارة علامات المستخدم",
+    "flags.list.help_text": "ضع قائمة بالعلامات المتاحة",
+    "flags.add.help_text": "أضف أعلام للمستخدم",
+    "flags.remove.help_text": "إزالة العلامات من المستخدم",
+    "permissions.help_text": "إدارة أذونات المستخدم",
+    "permisisons.view.help_text": "(عرض أذونات المستخدم (ورقم الإذن الناتج",
+    "permissions.list.help_text": "أدرج أذونات المستخدم",
+    "permissions.remove.help_text": "إزالة الأذونات من مستخدم",
+    "permissions.add.help_text": "إضافة أذونات إلى مستخدم",
+    
+    "mute.help_text": "تجاهل المستخدم",
+    "unmute.help_text": "إعادة صوت مستخدم",
+    "record.help_text": "عرض تفاصيل كتم الصوت",
+    "infractions.help_text": "عرض سجل كتم الصوت للمستخدم",
+    "delete.help_text": "حذف رسالة عبر الخوادم",
+
+    "wizard.help_text": "استخدم المعالج لإعداد / إزالة مسار",
+    "wizard.remove.help_text": "قم بإزالة مسار باستخدام المعالج",
+    "wizard.reset.help_text": "(تشغيل `kb! wizard remove` و` kb! wizard install` مع التفاصيل الصحيحة لك (قم بإزالة وتثبيت مسار",
+    "wizard.view.help_text": "إدارة مسار معين",
+    "wizard.install.help_text": "قم بتثبيت مسار باستخدام المعالج",
+
+    "profile.help_text": "عرض ملف تعريف المستخدم",
+    
+    "language.help_text": "تغيير لغة الواجهة المفضلة لديك",
+    
+    "help.help_text": "احصل على مساعدة بشأن أوامر الروبوت وكيفية استخدامها",
+    "report.help_text": "الإبلاغ عن مشكلة للموظفين",
+    "team.help_text": " عرض أعضاء هيئة التدريس والأعضاء الخاصين في مجتمع كلامبو",
+    "guild.help_text": "احصل على رابط خادم دعم كلامبو الرسمي",
+
+
+    // flags
+    "flag.TRAINEE": "المتدرب",
+    "flag.MODERATOR": "مشرف",
+    "flag.DEVELOPER": "مطور",
+    "flag.SUPPORTER": "مؤيد",
+    "flag.DONATOR": "متبرع",
+    "flag.TRANSLATOR": "مترجم",
+    
+    
+    // permissions
+    "permission.ATTACHMENT_SEND": "إرسال المرفقات",
+    "permission.EMOJI_SEND": "أرسل الرموز التعبيرية",
+    "permission.LOCAL_LETTERBOX_INSPECT": "افحص علب الورق المحلية",
+    "permission.LOCAL_LETTERBOX_MODIFY": "تعديل علب البريد المحلية",
+    "permission.EXTERNAL_LETTERBOX_INSPECT": "افحص علب الورق الخارجية",
+    "permission.EXTERNAL_LETTERBOX_MODIFY": "تعديل علب البريد الخارجية",
+    "permission.PATH_INSPECT": "فحص المسارات",
+    "permission.PATH_MODIFY": "تعديل المسارات",
+    "permission.MUTE_INSPECT": "افحص البكم",
+    "permission.MUTE_MODIFY": "تعديل كتم الصوت",
+    "permission.PERMISSION_INSPECT": "فحص الأذونات",
+    "permission.PERMISSION_MODIFY": "تعديل الأذونات",
+    "permission.FLAG_MODIFY": "تعديل الأعلام",
+    "permission.MESSAGE_DELETE": "حذف الرسائل",
+    "permission.BASIC": "*الأساسي",
+    "permission.VIP": "*كبار الشخصيات",
+    "permission.TRAINEE": "*المتدرب",
+    "permission.MODERATOR": "*مشرف",
+    
+    // tips
+    "tips.kbhelp": "!للحصول على مزيد من المساعدة kb!help استخدم الأمر",
+    "tips.staff": "kb!team إذا لم تكن متأكدًا من الشخص الذي تثق به ، فراجع الفريق مع",
+    "tips.report": ".متبوعًا بوصف لمشكلتك kb!report لدي مشكلة؟ استخدم",
+    
+    "generic.success": "!نجاح",
+    "generic.error": "!خطأ"
+}
