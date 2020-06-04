@@ -228,5 +228,6 @@
     "tips.report": "Got a problem? Use kb!report followed by a description of your problem.",
     
     "generic.success": "Success!",
-    "generic.error": "Error!"
+    "generic.error": "Error!",
+    "generic.ratelimit": "You're using this command too fast! Retry after {seconds:.2f} seconds."
 }
