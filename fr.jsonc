@@ -139,7 +139,7 @@
     "error.user_missing_permissions": "au moins une des permissions suivantes : {permissions}",
     "error.invalid_arguments": "Un ou plusieurs des arguments requis étaient invalides/inexistants. Veuillez consulter le menu d'aide ci-dessous pour obtenir de l'aide.",
     "error.not_found": "Cette commande n'a pas été trouvée",
-    "error.other": "Une erreur inconnue s'est produite (`{name}`). Les développeurs ont été avertis.",
+    "error.other": "Une erreur inconnue s'est produite (`{name}`). Les développeurs ont été avertis. Rendez-vous sur https://discord.gg/9UBdZHu pour obtenir de l'aide.",
 
     "pub.rules.text": "**Voici les règles pour tous les salons Kolumbao :**\n\n{global_rules}\n\n**Et voici les règles pour ce salon :**\n\n{rules}",
     "pub.rules.rule.1": "N'enfreignez pas les ToS de Discord.",

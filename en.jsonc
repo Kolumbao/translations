@@ -141,7 +141,7 @@
     "error.user_missing_permissions": "You are missing at least one of the following permissions: {permissions}",
     "error.invalid_arguments": "One or more of the required arguments were invalid/non-existent. Please consult the help menu below for assistance",
     "error.not_found": "That command was not found",
-    "error.other": "Another error occured (`{name}`). The developers have been notified.",
+    "error.other": "Another error occured (`{name}`). The developers have been notified. Head to https://discord.gg/9UBdZHu for support.",
 
     "pub.rules.text": "**Here are the rules for all Kolumbao channels:**\n\n{global_rules}\n\n**And here are the rules for this channel:**\n\n{rules}",
     "pub.rules.rule.1": "Do not break Discord ToS/Community Guidelines.",
