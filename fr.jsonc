@@ -39,6 +39,8 @@
     "message.to_delete": "Il y a un total de {amount} de messages à supprimer. Cela peut prendre du temps.",
     "message.deleted": "La commande a abouti à: {deleted} supprimations réussies, {failed} échecs. {not_found} messages n'ont pas été trouvés ou sont déjà supprimés.",
     
+    "lookup.title": "Recherche de message",
+    "lookup.description": "Le message [ici]({link}) a été envoyé depuis **{guild}** par **{user}**.",
     
     // profile.py
     "profile.title": "Profil de {user}",

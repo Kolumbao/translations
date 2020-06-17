@@ -39,7 +39,9 @@
     "message.to_delete": "There are a total of {amount} messages to delete. This may take time.",
     "message.deleted": "The command resulted in: {deleted} successfully deletions, {failed} failures. {not_found} messages were not found or are already deleted.",
     
-    
+    "lookup.title": "Message lookup",
+    "lookup.description": "The message [here]({link}) came from **{guild}** and was written by **{user}**.",
+
     // profile.py
     "profile.title": "{user} profile",
     "profile.id.discord": "Discord ID",
