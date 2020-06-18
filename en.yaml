@@ -1,0 +1,261 @@
+delete:
+  help_text: Delete a message across the servers
+error:
+  bot_missing_permissions: 'The bot is missing at least one of the following permissions:
+    {permissions}'
+  invalid_arguments: One or more of the required arguments were invalid/non-existent.
+    Please consult the help menu below for assistance
+  not_found: That command was not found
+  other: Another error occured (`{name}`). The developers have been notified. Head
+    to https://discord.gg/9UBdZHu for support.
+  permissions: 'You are misisng at least one of the following Kolumbao permissions:
+    {permissions}'
+  user_missing_permissions: 'You are missing at least one of the following permissions:
+    {permissions}'
+flag:
+  DEVELOPER: Developer
+  DONATOR: Donator
+  MODERATOR: Moderator
+  SUPPORTER: Supporter
+  TRAINEE: Trainee
+  TRANSLATOR: Translator
+flags:
+  add:
+    help_text: Add flags to a user
+  available: All available flags.
+  help_text: Manage user flags
+  list:
+    help_text: List the available flags
+  not_found: No flag found.
+  remove:
+    help_text: Remove flags from a user
+  updated: Flags updated! See this user's flags with {command}.
+generic:
+  error: Error!
+  ratelimit: You're using this command too fast! Retry after {seconds:.2f} seconds.
+  success: Success!
+guild:
+  help_text: Get the link for the official Kolumbao support server
+help:
+  help_text: Get help on the bot's commands and how to use them
+infractions:
+  help_text: View the mute history of a user
+interaction:
+  ask_valid_response: 'Please respond with one of the follow: {options}; or with "{cancel}"
+    to cancel.'
+  cancel: cancel
+  exited: The prompted was cancelled!
+  invalid_response: That response is not valid!
+  none: none
+  timed_out: You took too long to respond, so the prompt was automatically cancelled.
+language:
+  help_text: Change your preferred interface language
+lookup:
+  description: The message [here]({link}) came from **{guild}** and was written by **{user}**.
+  title: Message lookup
+message:
+  deleted: 'The command resulted in: {deleted} successfully deletions, {failed} failures.
+    {not_found} messages were not found or are already deleted.'
+  not_found: This message was not found in the database.
+  to_delete: There are a total of {amount} messages to delete. This may take time.
+mute:
+  collection: Mutes for {user}
+  comment: Comment
+  end: End
+  forever: Forever
+  help_text: Mute a user
+  moderator: Moderator
+  page: Page {idx} of {total}.
+  start: Start
+  summary: 'Mute #{id} at {start} until {end}'
+  title: 'Mute #{id}'
+  user: User
+muting:
+  added: 'New mute #{id} created for {user}.'
+  adding: Adding mute for {user}...
+  already_muted: This user is already muted (#{id})!
+  ended: 'Mute #{id} was ended.'
+  header: Kolumbao Muting Utility
+  info: See this mute's details with {command}.
+  invalid_date: The duration/datetime {end} was invalid.
+  not_exist: 'Mute #{id} does not exist.'
+  not_muted: This user is not muted.
+permisisons:
+  view:
+    help_text: View a user's permissions (and resultant permission number)
+permission:
+  ATTACHMENT_SEND: Send Attachments
+  BASIC: Basic*
+  EMOJI_SEND: Send Emojis
+  EXTERNAL_LETTERBOX_INSPECT: Inspect External Letterboxes
+  EXTERNAL_LETTERBOX_MODIFY: Modify External Letterboxes
+  FLAG_MODIFY: Modify Flags
+  LOCAL_LETTERBOX_INSPECT: ' Inspect Local Letterboxes'
+  LOCAL_LETTERBOX_MODIFY: Modify Local Letterboxes
+  MESSAGE_DELETE: Delete Messages
+  MODERATOR: Moderator*
+  MUTE_INSPECT: Inspect Mutes
+  MUTE_MODIFY: Modify Mutes
+  PATH_INSPECT: Inspect Paths
+  PATH_MODIFY: Modify Paths
+  PERMISSION_INSPECT: Inspect Permissions
+  PERMISSION_MODIFY: Modify Permissions
+  TRAINEE: Trainee*
+  VIP: VIP*
+permissions:
+  add:
+    help_text: Add permissions to a user
+  available: All available permissions.
+  help_text: Manage user permissions
+  list:
+    help_text: List a user's permissions
+  not_found: No permission found.
+  not_modify: You can not modify this person's permissions!
+  remove:
+    help_text: Remove permissions from a user
+  title: Permissions for {user}.
+  updated: Permissions updated! See this user's permissions with {command}.
+ping:
+  current_latency: The current latency between the bot and Discord is {latency:.2f}ms
+  delay: The average delay for messages across the Kolumbao platform during the last
+    {messages} messages is {delay:.2f}ms
+  message: Message delay
+  title: Current ping
+profile:
+  flags: Flags
+  help_text: View a user's profile
+  id:
+    discord: Discord ID
+    kolumbao: Kolumbao ID
+  language_preference: Language Preference
+  last_seen: Last seen
+  never: Never
+  permissions: Permissions
+  title: '{user} profile'
+  total_sent: '# of messages'
+pub:
+  explanation:
+    text: '**Here''s a quick explanation:**
+
+
+      - This is a bot that allows you to talk to others without being in the same
+      server as them.
+
+      - These "bots" aren''t bots, they''re other people from other guilds.
+
+      - Kolumbao uses a bit of magic called "webhooks" to share your messages across
+      servers.
+
+      - After their names, certain people have emojis, these all mean different things.'
+  rules:
+    rule:
+      '1': Do not break Discord ToS/Community Guidelines.
+      '2': No spamming at all. AutoModerator is watching you.
+      '3': Be civil! No racism, sexism, bigotry, LGBTQ+ hate or discrimination.
+      '4': Your server's content isn't Kolumbao content.
+      '5': No repulsive, disturbing, hatefull, gore-y or severely unnerving content.
+      '6': Advertisements 1 hour apart, give some reason to join.
+      '7': No spoilers for recent stuff.
+      '8': Appeal or complain on the support server.
+      '9': Do not try to find loopholes in these rules. We are humans and know when
+        you're trying to get away with something.
+    text: '**Here are the rules for all Kolumbao channels:**
+
+
+      {global_rules}
+
+
+      **And here are the rules for this channel:**
+
+
+      {rules}'
+record:
+  help_text: View the details of a mute
+report:
+  help_text: Report a problem to the staff
+settings:
+  language:
+    not_found: That language was not found.
+    reset: Your language preference was reset.
+    set: Your language preference was set.
+    warning: This change will be visible the next time you use the bot.
+setup:
+  already_installed: This letterbox is already installed! It will be removed and reinstalled.
+    (The channel will not be removed, however).
+  finished: Finished installing! Check out your new channel at {channel} - it will
+    work soon.
+  header: Kolumbao Setup Utility
+  not_found: This path wasn't found. Use {command} to see possible options.
+stats:
+  description: Here are the current statistics for Kolumbao
+  for: Stats for {name}
+  header: Statistics Utility
+  letterboxes: '{total} letterboxes'
+  messages: '{total} messages'
+  title: Statistics for Kolumbao
+  total_messages: Total messages on Kolumbao
+support:
+  guild:
+    invite: 'Join the official Kolumbao guild here: {link}'
+  header: Kolumbao Support
+  help:
+    aliases: Aliases
+    arguments: <arg> denotes a required argument. [arg] denotes an optional argument.
+    commands: Commands
+    description: List of commands available.
+    example: Usage Examples
+    example_not_found: No usage examples found.
+    footer: For command specific help, use `kb!help` followed by the command name.
+    help: Help
+    help_not_found: No help message found.
+    not_found: This command/category was not found.
+    permissions: Required Permissions
+    subcommands: Subcommands
+    title: Help Menu
+    usage: Usage
+    use_subcommand: This command must be used via its subcommands
+    viewing: Viewing help for {command}.
+  report:
+    sent: Your report was successfully sent. We will manage it and contact you if
+      needed.
+  team:
+    description: The people that help keep Kolumbao as good as it is.
+    title: The Team
+    unknown: Unknown user
+team:
+  help_text: View the staff member's and special members of the Kolumbao community
+tips:
+  kbhelp: Use the command kb!help for more help!
+  report: Got a problem? Use kb!report followed by a description of your problem.
+  staff: If you're unsure who to trust, see the team with kb!team.
+unmute:
+  help_text: Unmute a user
+wizard:
+  description: Pick a path to manage
+  help_text: Use the wizard to setup/remove a path
+  install:
+    complete: 'The installation was successful. Check it out here: {channel}.'
+    existing_channel: Would you like to install this path to an existing channel?
+    guide: Respond by mentioning the channel or "{none}" to create a new channel.
+    help_text: Install a path using the wizard
+  path:
+    amount: Amount
+    installed: 'Installed (channel: {channel})'
+    instructions:
+      install: Respond with `{emoji}` to install this letterbox
+      prompt: Respond to the prompt below to manage.
+      remove: Respond with `{emoji}` to remove this letterbox.
+      reset: Respond with `{emoji}` to reset this letterbox.
+    not_installed: Not installed
+    title: '{name} (#{key}) in {amount} guilds'
+  removal:
+    failed: We failed to remove this letterbox! The developers have been notified.
+    success: The letterbox **{name}** was successfully removed!
+  remove:
+    help_text: Remove a path using the wizard
+  reset:
+    help_text: Remove and install a path (runs `kb!wizard remove` and `kb!wizard install`
+      with the correct details for you)
+  title: Kolumbao Paths
+  view:
+    help_text: Manage a specific path

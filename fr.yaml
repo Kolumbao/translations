@@ -1,0 +1,265 @@
+delete:
+  help_text: Supprimer un message sur les serveurs
+error:
+  bot_missing_permissions: 'Le bot manque au moins une des permissions suivantes :
+    {permissions}'
+  invalid_arguments: "Un ou plusieurs des arguments requis \xE9taient invalides/inexistants.\
+    \ Veuillez consulter le menu d'aide ci-dessous pour obtenir de l'aide."
+  not_found: "Cette commande n'a pas \xE9t\xE9 trouv\xE9e"
+  other: "Une erreur inconnue s'est produite (`{name}`). Les d\xE9veloppeurs ont \xE9\
+    t\xE9 avertis. Rendez-vous sur https://discord.gg/9UBdZHu pour obtenir de l'aide."
+  permissions: 'Vous manquez au moins une des permissions suivantes de Kolumbao :
+    {permissions}'
+  user_missing_permissions: 'au moins une des permissions suivantes : {permissions}'
+flag:
+  DEVELOPER: "D\xE9veloppeur"
+  DONATOR: Donateur
+  MODERATOR: "Mod\xE9rateur"
+  SUPPORTER: Souteneur
+  TRAINEE: Apprenti
+  TRANSLATOR: Traducteur
+flags:
+  add:
+    help_text: "Ajouter un badge \xE0 un utilisateur"
+  available: Tous les badges disponibles.
+  help_text: "G\xE9rer les badges des utilisateurs"
+  list:
+    help_text: Lister les badges disponibles
+  not_found: "Aucun badge trouv\xE9."
+  remove:
+    help_text: Supprimer les badges d'un utilisateur
+  updated: "Badges mis \xE0 jour ! Voir les badges de cet utilisateur avec {command}."
+generic:
+  error: Erreur !
+  ratelimit: "Vous utilisez trop vite cette commande ! R\xE9ssayez apr\xE8s {seconds:.2f}\
+    \ secondes."
+  success: "Succ\xE8s !"
+guild:
+  help_text: Obtenez le lien du serveur officiel de soutien de Kolumbao
+help:
+  help_text: "Obtenez de l'aide sur les commandes du bot et sur la mani\xE8re de les\
+    \ utiliser"
+infractions:
+  help_text: Voir l'historique de mute d'un utilisateur
+interaction:
+  ask_valid_response: "Veuillez r\xE9pondre par l'un des \xE9l\xE9ments suivants :\
+    \ {options} ou \"{cancel}\" pour annuler."
+  cancel: annuler
+  exited: "L'invitation a \xE9t\xE9 annul\xE9e !"
+  invalid_response: "Cette r\xE9ponse n'est pas valable !"
+  none: aucun
+  timed_out: "Vous avez mis trop de temps \xE0 r\xE9pondre, de sorte que l'invite\
+    \ a \xE9t\xE9 automatiquement annul\xE9e."
+language:
+  help_text: "Changer la langue de votre interface souhait\xE9e"
+lookup:
+  description: "Le message [ici]({link}) a \xE9t\xE9 envoy\xE9 depuis **{guild}**\
+    \ par **{user}**."
+  title: Recherche de message
+message:
+  deleted: "La commande a abouti \xE0: {deleted} supprimations r\xE9ussies, {failed}\
+    \ \xE9checs. {not_found} messages n'ont pas \xE9t\xE9 trouv\xE9s ou sont d\xE9\
+    j\xE0 supprim\xE9s."
+  not_found: "Ce message n'a pas \xE9t\xE9 trouv\xE9 dans la base de donn\xE9es."
+  to_delete: "Il y a un total de {amount} de messages \xE0 supprimer. Cela peut prendre\
+    \ du temps."
+mute:
+  collection: Mutes pour {user}
+  comment: Commentaire
+  end: Fin
+  forever: Pour toujours
+  help_text: Muter un utilisateur
+  moderator: "Mod\xE9rateur"
+  page: Page {idx} sur {total}.
+  start: "D\xE9but"
+  summary: "Mute #{id} de {start} \xE0 {end}"
+  title: 'Mute #{id}'
+  user: Utilisateur
+muting:
+  added: "Nouveau mute #{id} cr\xE9\xE9 pour {user}."
+  adding: Ajout du mute pour {user}...
+  already_muted: "Cet utilisateur est d\xE9j\xE0 mute. (#{id})!"
+  ended: 'Mute #{id} a pris fin.'
+  header: Utilitaire de mute de Kolumbao
+  info: "Voir les d\xE9tails du mute avec {command}."
+  invalid_date: "La dur\xE9e/date/heure {end} n'\xE9tait pas valable."
+  not_exist: 'Le mute #{id} n''existe pas.'
+  not_muted: Cette utilisateur n'est pas mute.
+permisisons:
+  view:
+    help_text: "Consulter les permissions d'un utilisateur (et le num\xE9ro de permission\
+      \ qui en r\xE9sulte)"
+permission:
+  ATTACHMENT_SEND: "Envoyer des pi\xE8ces jointes"
+  BASIC: Basic*
+  EMOJI_SEND: "Envoyer des \xE9mojis"
+  EXTERNAL_LETTERBOX_INSPECT: "Regarder les bo\xEEtes aux lettres externes"
+  EXTERNAL_LETTERBOX_MODIFY: "Modifier les bo\xEEtes aux lettres externes"
+  FLAG_MODIFY: Modifier les badges
+  LOCAL_LETTERBOX_INSPECT: "Regarder les bo\xEEtes aux lettres locales"
+  LOCAL_LETTERBOX_MODIFY: "Modifier les bo\xEEtes aux lettres locales"
+  MESSAGE_DELETE: Supprimer les messages
+  MODERATOR: "Mod\xE9rateur*"
+  MUTE_INSPECT: Regarder les mutes
+  MUTE_MODIFY: Modifier les mutes
+  PATH_INSPECT: Regarder les chemins
+  PATH_MODIFY: Modifier les chemins
+  PERMISSION_INSPECT: Regarder les permissions
+  PERMISSION_MODIFY: Modifier les permissions
+  TRAINEE: Apprenti*
+  VIP: VIP*
+permissions:
+  add:
+    help_text: "Ajouter les permissions \xE0 un utilisateur"
+  available: Toutes les permissions disponibles.
+  help_text: "G\xE9rer les permisssions des utilisateurs"
+  list:
+    help_text: Lister les permissions disponsibles
+  not_found: "Aucune permission trouv\xE9e."
+  not_modify: Vous ne pouvez pas modifier les permissions de cette personne !
+  remove:
+    help_text: Supprimer les permissions d'un utilisateur
+  title: Permissions pour {user}.
+  updated: "Permissions mises \xE0 jour ! Voir les permissions de cet utilisateur\
+    \ avec {command}."
+ping:
+  current_latency: La latence actuelle entre le bot et Discord est de {latency:.2f}ms
+  title: Ping actuel
+profile:
+  flags: Badges
+  help_text: Voir le profil d'un utilisateur
+  id:
+    discord: Discord ID
+    kolumbao: Kolumbao ID
+  language_preference: "Langue de pr\xE9f\xE9rence"
+  last_seen: Dernier message
+  never: Jamais
+  permissions: Permissions
+  title: Profil de {user}
+  total_sent: '# de messages'
+pub:
+  explanation:
+    text: "**Voici une explication rapide:**\n\n- C'est un bot qui vous permet de\
+      \ parler \xE0 d'autres gens sans \xEAtre sur le m\xEAme serveur qu'eux.**\n\
+      - Ces \"bots\" ne sont pas des bots, ce sont d'autres gens d'autres serveurs.**\n\
+      - Kolumbao utilise un peu de magie nomm\xE9 \"webhooks\" pour partager vos messages\
+      \ \xE0 travers les serveurs.**\n- Apr\xE8s leur nom, certaines personnes ont\
+      \ des emojis, ceux-ci ont tous une signification diff\xE9rente."
+  rules:
+    rule:
+      '1': N'enfreignez pas les ToS de Discord.
+      '2': Aucun de spam du tout. AutoModerator vous regarde toujours.
+      '3': Soyez courtois ! Pas de racisme, de sexisme, de bigoterie, de haine ou
+        de discrimination envers les LGBTQ+.
+      '4': Le contenu de votre serveur n'est pas le contenu de Kolumbao.
+      '5': "Pas de contenu r\xE9pugnant, d\xE9rangeant, haineux, gore ou gravement\
+        \ d\xE9rangeant."
+      '6': "Les pubs doivent \xEAtre espac\xE9es d'une heure, et donnez des raisons\
+        \ de se rejoindre !"
+      '7': "Pas de spoilers pour les sorties r\xE9centes."
+      '8': "Faites appel ou d\xE9posez une plainte sur le serveur support."
+      '9': "N'essayez pas de trouver des failles dans ces r\xE8gles. Nous sommes des\
+        \ humains et nous savons quand vous essayez de vous en tirer."
+    text: "**Voici les r\xE8gles pour tous les salons Kolumbao :**\n\n{global_rules}\n\
+      \n**Et voici les r\xE8gles pour ce salon :**\n\n{rules}"
+record:
+  help_text: "Voir les d\xE9tails d'un mute"
+report:
+  help_text: "Signaler un probl\xE8me au staff de Kolumbao"
+settings:
+  language:
+    not_found: "La langue demand\xE9e n'a pas \xE9t\xE9 trouv\xE9e."
+    reset: "Votre langue de pr\xE9f\xE9rence a \xE9t\xE9 r\xE9initialis\xE9e."
+    set: "Votre langue de pr\xE9f\xE9rence a \xE9t\xE9 \xE9tablie."
+    warning: Ce changement sera visible la prochaine fois que vous utiliserez le bot.
+setup:
+  already_installed: "Cette bo\xEEte aux lettres est d\xE9j\xE0 install\xE9e ! Elle\
+    \ sera retir\xE9e et r\xE9install\xE9e. (Le channel ne sera toutefois pas supprim\xE9\
+    )."
+  finished: "L'installation s'est termin\xE9e ! Jetez un coup d'oeil \xE0 {channel}\
+    \ - il va bient\xF4t marcher"
+  header: Utilitaire de configuration de Kolumbao
+  not_found: "Ce chemin n'a pas \xE9t\xE9 trouv\xE9. Utilisez {command} pour voir\
+    \ les options possibles."
+stats:
+  description: Voici les statistiques actuelles pour Kolumbao
+  for: Statistiques pour {name}
+  header: Utilitaire des statistiques
+  letterboxes: "{total} bo\xEEtes aux lettres"
+  messages: '{total} messages'
+  title: Statistiques pour Kolumbao
+  total_messages: Nombre total de messages sur Kolumbao
+support:
+  guild:
+    invite: 'Rejoignez le serveur officiel de Kolumbao ici : {link}'
+  header: Soutien de Kolumbao
+  help:
+    aliases: Alias
+    arguments: <arg> indique un argument requis. [arg] indique un argument facultatif.
+    commands: Commands
+    description: Liste des commandes disponibles.
+    example: Exemples d'utilisation
+    example_not_found: "Aucun exemple d'utilisation trouv\xE9."
+    footer: "Pour une aide sp\xE9cifique \xE0 une commande, utilisez `kb!help` suivi\
+      \ du nom de la commande."
+    help: Aide
+    help_not_found: "Aucun message d'aide trouv\xE9."
+    not_found: "Cette commande/cat\xE9gorie n'a pas \xE9t\xE9 trouv\xE9e."
+    permissions: Les permissions requies
+    subcommands: Sous-commandes
+    title: Menu d'aide
+    usage: Utilisation
+    use_subcommand: "Cette commande doit \xEAtre utilis\xE9e via ses sous-commandes"
+    viewing: Consulter l'aide pour {command}.
+  report:
+    sent: "Votre signal a \xE9t\xE9 envoy\xE9 avec succ\xE8s. Nous le g\xE9rerons\
+      \ et vous contacterons si n\xE9cessaire."
+  team:
+    description: "Les personnes qui contribuent \xE0 maintenir Kolumbao en bon \xE9\
+      tat."
+    title: "L'\xE9quipe"
+    unknown: Utilisateur inconnu
+team:
+  help_text: "Voir les membres du personnel et les membres sp\xE9ciaux de la communaut\xE9\
+    \ de Kolumbao"
+tips:
+  kbhelp: Utilisez la commande kb!help pour avoir plus d'aide !
+  report: "Vous avez un probl\xE8me ? Utilisez kb!report suivi d'une description de\
+    \ votre probl\xE8me."
+  staff: "Si vous ne savez pas \xE0 qui faire confiance, contactez l'\xE9quipe avec\
+    \ kb!team."
+unmute:
+  help_text: "D\xE9muter un utilisateur"
+wizard:
+  description: "Choisir un chemin \xE0 g\xE9rer"
+  help_text: "Utiliser l'assistant pour cr\xE9er/supprimer un chemin"
+  install:
+    complete: "L'installation a \xE9t\xE9 un r\xE9ussite. Check it out here: {channel}."
+    existing_channel: Voulez-vous installer ce chemin sur un salon existant ?
+    guide: "R\xE9pondez par par mentionner le salon ou \"{none}\" pour cr\xE9er un\
+      \ nouveau salon."
+    help_text: "Installer un chemin \xE0 l'aide de l'assistant"
+  path:
+    amount: Total
+    installed: "Install\xE9 (salon: {channel})"
+    instructions:
+      install: "R\xE9pondez par `{emoji}` pour installer cette bo\xEEte aux lettres."
+      prompt: "R\xE9pondez par \xE0 l'invite ci-dessous pour g\xE9rer."
+      remove: "R\xE9pondez par `{emoji}` pour supprimer cette bo\xEEte aux lettres."
+      reset: "R\xE9pondez par `{emoji}` pour r\xE9initialiser cette bo\xEEte aux lettres."
+    not_installed: "Pas install\xE9"
+    title: '{name} (#{key}) dans {amount} serveurs'
+  removal:
+    failed: "Nous n'avons pas r\xE9ussi \xE0 supprimer cette bo\xEEte aux lettres\
+      \ ! Les d\xE9veloppeurs ont \xE9t\xE9 avertis."
+    success: "La bo\xEEte aux lettres **{name}** a \xE9t\xE9 supprim\xE9e avec succ\xE8\
+      s !"
+  remove:
+    help_text: "Supprimer un chemin \xE0 l'aide de l'assistant"
+  reset:
+    help_text: "Supprimer et installer un chemin \xE0 l'aide de l'assistant (ce fait\
+      \ `kb!wizard remove` et `kb!wizard install` avec les informations correctes\
+      \ pour vous)"
+  title: Chemins de Kolumbao
+  view:
+    help_text: "G\xE9rer un chemin particulier"

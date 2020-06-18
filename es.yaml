@@ -1,0 +1,244 @@
+delete:
+  help_text: Eliminar un mensaje en los servidores
+error:
+  bot_missing_permissions: 'Al bot le faltan al menos uno de los siguientes permisos:
+    {permissions}'
+  invalid_arguments: "Uno o m\xE1s de los argumentos requeridos eran inv\xE1lidos/inexistentes.\
+    \ Consulte el men\xFA de ayuda a continuaci\xF3n para obtener ayuda."
+  not_found: "Ese comando no se encontr\xF3"
+  other: Se produjo otro error (`{name}`). Los desarrolladores han sido notificados.
+  permissions: 'Le faltan al menos uno de los siguientes permisos de Kolumbao: {permissions}'
+  user_missing_permissions: 'Le falta al menos uno de los siguientes permisos: {permissions}'
+flag:
+  DEVELOPER: Desarrollador(a)
+  DONATOR: Donatario
+  MODERATOR: Moderador(a)
+  SUPPORTER: Seguidor(a)
+  TRAINEE: Aprendiz(a)
+  TRANSLATOR: Traductor(a)
+flags:
+  add:
+    help_text: Agregar banderas a un(a) usuari(a/o)
+  available: Todas las banderas disponibles.
+  help_text: Administrar banderas de usuario
+  list:
+    help_text: Listar las banderas disponibles
+  not_found: "No se encontr\xF3 bandera."
+  remove:
+    help_text: Eliminar banderas de un(a) usuari(a/o)
+  updated: Banderas actualizadas! Vea las banderas de este usuario con {command}.
+generic:
+  error: "\xA1Error!"
+  success: "\xA1\xC9xito!"
+guild:
+  help_text: Obtenga el enlace para el servidor de soporte oficial de Kolumbao
+help:
+  help_text: "Obtenga ayuda sobre los comandos del bot y c\xF3mo usarlos"
+infractions:
+  help_text: Ver el historial de silencio de un(a) usuari(a/o).
+interaction:
+  ask_valid_response: 'Responda con uno de los siguientes: {options}; o con "{cancel}"
+    para cancelar.'
+  cancel: cancelar
+  exited: "\xA1El aviso fue cancelado!"
+  invalid_response: "\xA1Esa respuesta no es v\xE1lida!"
+  none: ninguno
+  timed_out: "Tard\xF3 demasiado en responder, por lo que el aviso se cancel\xF3 autom\xE1\
+    ticamente."
+language:
+  help_text: Cambia tu idioma de interfaz preferido
+message:
+  deleted: "El comando result\xF3 en: {deleted} eliminaciones exitosas, {failed} fallas.\
+    \ Los mensajes {not_found} no se encontraron o ya se eliminaron."
+  not_found: "Este mensaje no se encontr\xF3 en la base de datos."
+  to_delete: Hay un total de {amount} mensajes para eliminar. Esto puede llevar tiempo.
+mute:
+  collection: Silencios para {user}
+  comment: Comentario
+  end: Fin
+  forever: Siempre
+  help_text: Silenciar a un(a) usuari(a/o)
+  moderator: Moderador
+  page: "P\xE1gina {idx} de {total}."
+  start: Empezar
+  summary: 'Silenciar #{id} al {start} hasta {end}'
+  title: 'Silenciar #{id}'
+  user: Usuario
+muting:
+  added: 'Nuevo silencio #{id} creado para {user}.'
+  adding: Agregando silencio para {user}...
+  already_muted: "\xA1Este usuario ya est\xE1 silenciado (#{id})!"
+  ended: "Se finaliz\xF3 el silencio #{id}."
+  header: Utilidad de silenciamiento de Kolumbao
+  info: Vea los detalles de este silencio con {command}.
+  invalid_date: "La duraci\xF3n/fecha y hora {end} no era v\xE1lida."
+  not_exist: 'El silencio #{id} no existe.'
+  not_muted: "Este usuario no est\xE1 silenciado."
+permisisons:
+  view:
+    help_text: "Ver los permisos de un usuario (y el n\xFAmero de permiso resultante)"
+permission:
+  ATTACHMENT_SEND: Enviar Archivos Adjuntos
+  BASIC: "B\xE1sic(a/o)*"
+  EMOJI_SEND: Enviar Emojis
+  EXTERNAL_LETTERBOX_INSPECT: Inspeccionar Buzones Externos
+  EXTERNAL_LETTERBOX_MODIFY: Modificar Buzones Externos
+  FLAG_MODIFY: Modificar Banderas
+  LOCAL_LETTERBOX_INSPECT: Inspeccionar Buzones Locales
+  LOCAL_LETTERBOX_MODIFY: Modificar Buzones Locales
+  MESSAGE_DELETE: Eliminar Mensajes
+  MODERATOR: Moderador(a)*
+  MUTE_INSPECT: Inspeccionar Silencios
+  MUTE_MODIFY: Modificar Silencios
+  PATH_INSPECT: Inspeccionar Rutas
+  PATH_MODIFY: Modificar Rutas
+  PERMISSION_INSPECT: Inspeccionar Permisos
+  PERMISSION_MODIFY: Modificar Permisos
+  TRAINEE: Aprendiz(a)*
+  VIP: VIP*
+permissions:
+  add:
+    help_text: Agregar permisos a un(a) usuari(a/o)
+  available: Todos los permisos disponibles.
+  help_text: Administrar permisos de usuario
+  list:
+    help_text: Listar los permisos de un usuario
+  not_found: "No se encontr\xF3 permiso."
+  not_modify: "\xA1No puede modificar los permisos de esta persona!"
+  remove:
+    help_text: Eliminar permisos de un(a) usuari(a/o)
+  title: Permisos para {user}.
+  updated: Permisos actualizados! Vea los permisos de este usuario con {command}.
+ping:
+  current_latency: La latencia actual entre el bot y Discord es {latency:.2f}ms
+  title: Ping actual
+profile:
+  flags: Banderas
+  help_text: Ver el perfil de un usuario
+  id:
+    discord: ID de Discord
+    kolumbao: "Identificaci\xF3n de Kolumbao"
+  language_preference: Preferencia de Idioma
+  last_seen: Ultima vez visto
+  never: Nunca
+  permissions: Permisos
+  title: perfil del {user}
+  total_sent: '# de mensajes'
+pub:
+  explanation:
+    text: "**Aqu\xED hay una explicaci\xF3n r\xE1pida:**\n\n- Este es un bot que te\
+      \ permite hablar con otros sin estar en el mismo servidor que ellos.\n- Estos\
+      \ \"bots\" no son bots, ellos ' re otras personas de otros gremios.\n- Kolumbao\
+      \ usa un poco de magia llamada \"webhooks\" para compartir sus mensajes entre\
+      \ servidores.\n- Despu\xE9s de sus nombres, ciertas personas tienen emojis,\
+      \ todo esto significa cosas diferentes."
+  rules:
+    rule:
+      '1': No rompa el ToS de Discord/Principios de la Comunidad..
+      '2': "Sin spam en absoluto. AutoModerator te est\xE1 mirando."
+      '3': "\xA1S\xE9 civil! No racismo, sexismo, intolerancia, LGBTQ+ odio o discriminaci\xF3\
+        n."
+      '4': El contenido de su servidor no es contenido de Kolumbao.
+      '5': Sin contenido repulsivo, perturbador, odioso, sangriento o severamente
+        desconcertante.
+      '6': "Anuncios con 1 hora de diferencia, da alguna raz\xF3n para unirte."
+      '7': Sin spoilers de cosas recientes.
+      '8': Apela o queja en el servidor de soporte.
+      '9': "No intente encontrar lagunas en estas reglas. Somos humanos y sabemos\
+        \ cu\xE1ndo intentas salirte con la tuya."
+    text: "**Aqu\xED est\xE1n las reglas para todos los canales de Kolumbao:**\n\n\
+      {global_rules}\n\n**Y aqu\xED est\xE1n las reglas para este canal:**\n\n{rules}"
+record:
+  help_text: Ver los detalles de un silencio
+report:
+  help_text: Informar un problema al personal
+settings:
+  language:
+    not_found: Ese idioma no fue encontrado.
+    reset: "Su preferencia de idioma se restableci\xF3."
+    set: Su preferencia de idioma fue establecida.
+    warning: "Este cambio ser\xE1 visible la pr\xF3xima vez que use el bot."
+setup:
+  already_installed: "\xA1Este buz\xF3n ya est\xE1 instalado! Ser\xE1 eliminado y\
+    \ reinstalado. (Sin embargo, el canal no se eliminar\xE1)."
+  finished: "Terminado de instalar! Echa un vistazo a tu nuevo canal en {channel}:\
+    \ funcionar\xE1 pronto."
+  header: "Utilidad de configuraci\xF3n de Kolumbao"
+  not_found: Esta ruta no fue encontrado. Use {command} para ver las posibles opciones.
+stats:
+  description: "Aqu\xED est\xE1n las estad\xEDsticas actuales de Kolumbao"
+  for: "Estad\xEDsticas para {nome}"
+  header: "Utilidad de estad\xEDsticas"
+  letterboxes: '{total} buzones'
+  messages: '{total} mensajes'
+  title: "Estad\xEDsticas para Kolumbao"
+  total_messages: Mensajes totales en Kolumbao
+support:
+  guild:
+    invite: "\xDAnete al gremio oficial de Kolumbao aqu\xED: {link}"
+  header: Soporte Kolumbao
+  help:
+    aliases: Alias
+    arguments: <arg> denota un argumento requerido. [arg] denota un argumento opcional.
+    commands: Comandos
+    description: Lista de comandos disponibles.
+    example: Ejemplos de Uso
+    example_not_found: No se encontraron ejemplos de uso.
+    footer: "Para obtener ayuda espec\xEDfica del comando, use `kb!help` seguido del\
+      \ nombre del comando."
+    help: Ayuda
+    help_not_found: "No se ha encontrado ning\xFAn mensaje de ayuda."
+    not_found: "Este comando/categor\xEDa no se encontr\xF3."
+    permissions: Permisos Requeridos
+    subcommands: Subcomandos
+    title: "Men\xFA de ayuda"
+    usage: Uso
+    use_subcommand: "Este comando debe usarse a trav\xE9s de sus subcomandos"
+    viewing: Viendo ayuda para {command}.
+  report:
+    sent: "Su informe fue enviado con \xE9xito. Lo gestionaremos y contactaremos con\
+      \ usted si es necesario."
+  team:
+    description: Las personas que ayudan a mantener a Kolumbao tan bueno como es.
+    title: El Equipo
+    unknown: Usuario desconocid(a/o)
+team:
+  help_text: Ver el miembro del personal y los miembros especiales de la comunidad
+    de Kolumbao
+tips:
+  kbhelp: "Utilice el comando kb!help para obtener m\xE1s ayuda!"
+  report: "\xBFTiene un problema? Utilice kb!report Seguido de una descripci\xF3n\
+    \ de su problema."
+  staff: "Si no est\xE1 seguro de en qui\xE9n confiar, vea a el equipo con kb!team."
+unmute:
+  help_text: Dejar de silenciar a un(a) usuari(a/o)
+wizard:
+  description: Elija una ruta para administrar
+  help_text: Use el asistente para configurar/eliminar una ruta
+  install:
+    complete: "La instalaci\xF3n fue exitosa. Compru\xE9balo aqu\xED: {channel}."
+    existing_channel: "\xBFDesea instalar esta ruta en un canal existente?"
+    guide: Responda mencionando el canal o "{none}" para crear un nuevo canal.
+    help_text: Instalar una ruta usando el asistente
+  path:
+    amount: Cantidad
+    installed: 'Instalado (canal: {channel})'
+    instructions:
+      guide: Responda al siguiente mensaje para administrar.
+      install: "Responda con `{emoji}` para instalar este buz\xF3n"
+      remove: "Responda con `{emoji}` para eliminar este buz\xF3n."
+      reset: "Responda con `{emoji}` para restablecer este buz\xF3n."
+    not_installed: No instalado
+    title: '{name} (#{key}) en {amount} gremios'
+  removal:
+    failed: "\xA1No hemos podido eliminar este buz\xF3n! Los desarrolladores han sido\
+      \ notificados."
+    success: "\xA1El buz\xF3n **{name}** se elimin\xF3 con \xE9xito!"
+  remove:
+    help_text: Eliminar una ruta utilizando el asistente
+  reset:
+    help_text: Elimine e instale una ruta (ejecuta `kb!wizard remove` y` kb!wizard
+      install` con los detalles correctos para usted)
+  title: Rutas de Kolumbao
+  view:
+    help_text: "Administrar una ruta espec\xEDfica"
