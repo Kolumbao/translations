@@ -1,3 +1,70 @@
+community:
+  header: Community Interface
+  search:
+    title: Search results
+    description: 'Search results for \"{query}\". Add the channel with `kb!channel add` followed by the name. For example: `kb!channel add kb-general`'
+    empty: That search was empty, try something like `kb!search General`
+  result:
+    title: '{language} {name} #{short_name} in {amount} guilds'
+    installed: Installed ({channel})
+    not_installed: Not installed
+    showing: Showing first {amount} results out of {total}
+  details:
+    description: 'Details for #{short_name}'
+    details: Channel description
+    rules: Channel rules
+    count: Number of guilds
+    creator: Creator
+    no_creator: No creator
+    status: Status
+    official: Official
+    unofficial: User made
+support:
+  help:
+    viewing: Viewing help for {command}
+    usage: Usage
+    aliases: Aliases
+    permissions: Kolumbao permissions
+    help: Help
+    example: Examples
+channel:
+  add:
+    complete: Installation was a success! Check it out <#{channel}>
+    exact_name: |
+      **You must use the exact name of the channel!**
+      <:error:712365309620912198> `kb!channel add general`
+      <:correct:712364936801550380> `kb!channel add kb-general`
+    example_text: |
+      Add a Kolumbao channel to an existing channel:
+      - kb!channel add #channel-name kb-general
+      Or get a new channel:
+      - kb!channel add kb-general
+  list:
+    title: Installed channels
+    description: List of installed channels. Find more with `kb!search` or `kb!top`, and manage them with `kb!channel add|remove`.
+    none: No channels installed! Find some with `kb!search` or `kb!top`
+  remove:
+    exact_name: |
+      **You must use the exact name of the channel!**
+      <:error:712365309620912198> `kb!channel remove general`
+      <:correct:712364936801550380> `kb!channel remove kb-general`
+      <:correct:712364936801550380> `kb!channel remove #channel-name`
+    success: Successfully removed the channel! You will need to delete the channel locally.
+  shortly: We are setting up your channel in the background, and you should be able to receive messages shortly. Don't be shy to start talking
+top:
+  title: Top channels!
+  description: 'Here are the top five channels on Kolumbao. Add the channel with `kb!channel add` followed by the name. For example: `kb!channel add kb-general`'
+  messages: '{amount} messages'
+setup:
+  title: Kolumbao
+  guide: |
+    Kolumbao is a bot that allows you to chat with others from different servers.
+    To get started, we recommend you add the top channels with `kb!top`, and then check out the rest of the community with `kb!search`.
+
+    If you're lost, or confused, head to {link}.
+  recommendations:
+    title: Recommendations
+    content: We recommend you try out **Kolumbao General**, the flagship channel of Kolumbao. Get it with `kb!channel add kb-general`.
 delete:
   help_text: Delete a message across the servers
 error:
@@ -179,13 +246,6 @@ settings:
     reset: Your language preference was reset.
     set: Your language preference was set.
     warning: This change will be visible the next time you use the bot.
-setup:
-  already_installed: This letterbox is already installed! It will be removed and reinstalled.
-    (The channel will not be removed, however).
-  finished: Finished installing! Check out your new channel at {channel} - it will
-    work soon.
-  header: Kolumbao Setup Utility
-  not_found: This path wasn't found. Use {command} to see possible options.
 stats:
   description: Here are the current statistics for Kolumbao
   for: Stats for {name}
@@ -230,32 +290,3 @@ tips:
   staff: If you're unsure who to trust, see the team with kb!team.
 unmute:
   help_text: Unmute a user
-wizard:
-  description: Pick a path to manage
-  help_text: Use the wizard to setup/remove a path
-  install:
-    complete: 'The installation was successful. Check it out here: {channel}.'
-    existing_channel: Would you like to install this path to an existing channel?
-    guide: Respond by mentioning the channel or "{none}" to create a new channel.
-    help_text: Install a path using the wizard
-  path:
-    amount: Amount
-    installed: 'Installed (channel: {channel})'
-    instructions:
-      install: Respond with `{emoji}` to install this letterbox
-      prompt: Respond to the prompt below to manage.
-      remove: Respond with `{emoji}` to remove this letterbox.
-      reset: Respond with `{emoji}` to reset this letterbox.
-    not_installed: Not installed
-    title: '{name} (#{key}) in {amount} guilds'
-  removal:
-    failed: We failed to remove this letterbox! The developers have been notified.
-    success: The letterbox **{name}** was successfully removed!
-  remove:
-    help_text: Remove a path using the wizard
-  reset:
-    help_text: Remove and install a path (runs `kb!wizard remove` and `kb!wizard install`
-      with the correct details for you)
-  title: Kolumbao Paths
-  view:
-    help_text: Manage a specific path
