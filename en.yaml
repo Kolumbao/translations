@@ -23,14 +23,6 @@ search:
   help_text: Search Kolumbao channels
 details:
   help_text: Get details on a channel
-support:
-  help:
-    viewing: Viewing help for {command}
-    usage: Usage
-    aliases: Aliases
-    permissions: Kolumbao permissions
-    help: Help
-    example: Examples
 channel:
   add:
     help_text: Add new channels!

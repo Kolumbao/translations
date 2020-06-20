@@ -212,33 +212,3 @@ tips:
   staff: "Si no est\xE1 seguro de en qui\xE9n confiar, vea a el equipo con kb!team."
 unmute:
   help_text: Dejar de silenciar a un(a) usuari(a/o)
-wizard:
-  description: Elija una ruta para administrar
-  help_text: Use el asistente para configurar/eliminar una ruta
-  install:
-    complete: "La instalaci\xF3n fue exitosa. Compru\xE9balo aqu\xED: {channel}."
-    existing_channel: "\xBFDesea instalar esta ruta en un canal existente?"
-    guide: Responda mencionando el canal o "{none}" para crear un nuevo canal.
-    help_text: Instalar una ruta usando el asistente
-  path:
-    amount: Cantidad
-    installed: 'Instalado (canal: {channel})'
-    instructions:
-      guide: Responda al siguiente mensaje para administrar.
-      install: "Responda con `{emoji}` para instalar este buz\xF3n"
-      remove: "Responda con `{emoji}` para eliminar este buz\xF3n."
-      reset: "Responda con `{emoji}` para restablecer este buz\xF3n."
-    not_installed: No instalado
-    title: '{name} (#{key}) en {amount} gremios'
-  removal:
-    failed: "\xA1No hemos podido eliminar este buz\xF3n! Los desarrolladores han sido\
-      \ notificados."
-    success: "\xA1El buz\xF3n **{name}** se elimin\xF3 con \xE9xito!"
-  remove:
-    help_text: Eliminar una ruta utilizando el asistente
-  reset:
-    help_text: Elimine e instale una ruta (ejecuta `kb!wizard remove` y` kb!wizard
-      install` con los detalles correctos para usted)
-  title: Rutas de Kolumbao
-  view:
-    help_text: "Administrar una ruta espec\xEDfica"

@@ -1,3 +1,62 @@
+community:
+  header: Interface Communautaire
+  search:
+    title: Résultat de la recherche
+    description: 'Résultats de la recherche pour \"{query}\". Ajouter le salon avec `kb!channel add` suivi du nom. Par exemple : `kb!channel add kb-general`.'
+    empty: Cette recherche était vide, essayez quelque chose comme `kb!search General`.
+  result:
+    title: '{language} {name} #{short_name} dans {amount} serveurs'
+    installed: Installé ({channel})
+    not_installed: Non installé
+    showing: Affichage des premiers résultats {amount} sur {total}
+  details:
+    description: 'Détails pour #{short_name}'
+    details: Description du salon
+    rules: Règles du salon
+    count: Nombre de serveurs
+    creator: Créateur
+    no_creator: Pas de créateur
+    status: Statut
+    official: Officiel
+    unofficial: Créé par un utilisateur
+channel:
+  add:
+    complete: L'installation a été un succès ! Consultez <#{channel}>
+    exact_name: |
+      **Vous devez utiliser le nom exact du salon!**
+      <:error:712365309620912198> `kb!channel add general`
+      <:correct:712364936801550380> `kb!channel add kb-general`
+    example_text: |
+      Ajouter un salon de Kolumbao à un salon existant :
+      - kb!channel add #channel-name kb-general
+      Ou alors, nouveau salon : 
+      - kb!channel add kb-general
+  list:
+    title: Salons installés
+    description: Liste des salons installés. Trouvez-en plus avec `kb!search` ou `kb!top`, et gérez-les avec `kb!channel add|remove`.
+    none: Aucun salon n'est installé ! Trouvez-en avec `kb!search` ou `kb!top`.
+  remove:
+    exact_name: |
+      **Vous devez utiliser le nom exacte du salon !**
+      <:error:712365309620912198> `kb!channel remove general`
+      <:correct:712364936801550380> `kb!channel remove kb-general`
+      <:correct:712364936801550380> `kb!channel remove #channel-name`
+    success: La suppression du salon a été un succès ! Vous devez supprimer le salon localement.
+  shortly: Nous sommes en train de mettre en place votre salon en arrière-plan, et vous devriez pouvoir recevoir des messages sous peu. Ne soyez pas timide pour commencer à parler
+top:
+  title: Les meilleurs salons !
+  description: 'Voici les cinq principaux salons de Kolumbao. Ajoutez le salon avec `kb!channel add` suivi du nom. Par exemple : `kb!channel add kb-general`.'
+  messages: '{amount} messages'
+setup:
+  title: Kolumbao
+  guide: |
+    Kolumbao est un bot qui vous permet de discuter avec d'autres personnes à partir de différents serveurs.
+    Pour commencer, nous vous recommandons d'ajouter les meilleurs salons avec `kb!top`, puis de consulter le reste de la communauté avec `kb!search`.
+
+    Si vous êtes perdu ou confus, dirigez-vous vers notre serveur support -> {link}.
+  recommendations:
+    title: Recommendations
+    content: Nous vous recommandons d'essayer **Kolumbao Général**, le salon phare français de Kolumbao. Obtenez-le avec le salon `kb!channel add kb-général`.
 delete:
   help_text: Supprimer un message sur les serveurs
 error:
@@ -230,36 +289,3 @@ tips:
     \ kb!team."
 unmute:
   help_text: "D\xE9muter un utilisateur"
-wizard:
-  description: "Choisir un chemin \xE0 g\xE9rer"
-  help_text: "Utiliser l'assistant pour cr\xE9er/supprimer un chemin"
-  install:
-    complete: "L'installation a \xE9t\xE9 un r\xE9ussite. Check it out here: {channel}."
-    existing_channel: Voulez-vous installer ce chemin sur un salon existant ?
-    guide: "R\xE9pondez par par mentionner le salon ou \"{none}\" pour cr\xE9er un\
-      \ nouveau salon."
-    help_text: "Installer un chemin \xE0 l'aide de l'assistant"
-  path:
-    amount: Total
-    installed: "Install\xE9 (salon: {channel})"
-    instructions:
-      install: "R\xE9pondez par `{emoji}` pour installer cette bo\xEEte aux lettres."
-      prompt: "R\xE9pondez par \xE0 l'invite ci-dessous pour g\xE9rer."
-      remove: "R\xE9pondez par `{emoji}` pour supprimer cette bo\xEEte aux lettres."
-      reset: "R\xE9pondez par `{emoji}` pour r\xE9initialiser cette bo\xEEte aux lettres."
-    not_installed: "Pas install\xE9"
-    title: '{name} (#{key}) dans {amount} serveurs'
-  removal:
-    failed: "Nous n'avons pas r\xE9ussi \xE0 supprimer cette bo\xEEte aux lettres\
-      \ ! Les d\xE9veloppeurs ont \xE9t\xE9 avertis."
-    success: "La bo\xEEte aux lettres **{name}** a \xE9t\xE9 supprim\xE9e avec succ\xE8\
-      s !"
-  remove:
-    help_text: "Supprimer un chemin \xE0 l'aide de l'assistant"
-  reset:
-    help_text: "Supprimer et installer un chemin \xE0 l'aide de l'assistant (ce fait\
-      \ `kb!wizard remove` et `kb!wizard install` avec les informations correctes\
-      \ pour vous)"
-  title: Chemins de Kolumbao
-  view:
-    help_text: "G\xE9rer un chemin particulier"
