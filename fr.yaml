@@ -259,7 +259,7 @@ support:
     aliases: Alias
     arguments: <arg> indique un argument requis. [arg] indique un argument facultatif.
     commands: Commands
-    description: Liste des commandes disponibles.
+    description: Liste des commandes disponibles. Utilisez kb!setup pour commencer.
     example: Exemples d'utilisation
     example_not_found: "Aucun exemple d'utilisation trouv\xE9."
     footer: "Pour une aide sp\xE9cifique \xE0 une commande, utilisez `kb!help` suivi\

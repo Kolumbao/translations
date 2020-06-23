@@ -266,7 +266,7 @@ support:
     aliases: Aliases
     arguments: <arg> denotes a required argument. [arg] denotes an optional argument.
     commands: Commands
-    description: List of commands available.
+    description: List of commands available. Use kb!setup to get started.
     example: Usage Examples
     example_not_found: No usage examples found.
     footer: For command specific help, use `kb!help` followed by the command name.
