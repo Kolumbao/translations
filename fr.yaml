@@ -20,6 +20,7 @@ community:
     official: Officiel
     unofficial: Créé par un utilisateur
 channel:
+  welcome: '**{name}** viennent d''ajouter **{path_name}**, ils vont bientôt commencer à recevoir des messages!'
   add:
     complete: L'installation a été un succès ! Consultez <#{channel}>
     exact_name: |

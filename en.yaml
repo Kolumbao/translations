@@ -24,6 +24,7 @@ search:
 details:
   help_text: Get details on a channel
 channel:
+  welcome: '**{name}** just added **{path_name}**, they''ll start seeing messages shortly!'
   add:
     help_text: Add new channels!
     complete: Installation was a success! Check it out <#{channel}>
