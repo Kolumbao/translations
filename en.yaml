@@ -257,6 +257,8 @@ stats:
   title: Statistics for Kolumbao
   total_messages: Total messages on Kolumbao
 support:
+  invite:
+    text: Invite the bot with <http://invite.kolumbao.com/> (or <https://discord.com/oauth2/authorize?client_id=705422266649018398&permissions=536881200&scope=bot>)
   guild:
     invite: 'Join the official Kolumbao guild here: {link}'
   header: Kolumbao Support
