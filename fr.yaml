@@ -112,6 +112,8 @@ interaction:
     \ a \xE9t\xE9 automatiquement annul\xE9e."
 language:
   help_text: "Changer la langue de votre interface souhait\xE9e"
+leaderboard:
+  title: Classement
 lookup:
   description: "Le message [ici]({link}) a \xE9t\xE9 envoy\xE9 depuis **{guild}**\
     \ par **{user}**."

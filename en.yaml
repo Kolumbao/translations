@@ -119,6 +119,8 @@ interaction:
   timed_out: You took too long to respond, so the prompt was automatically cancelled.
 language:
   help_text: Change your preferred interface language
+leaderboard:
+  title: Leaderboard
 lookup:
   description: The message [here]({link}) came from **{guild}** and was written by **{user}**.
   title: Message lookup
