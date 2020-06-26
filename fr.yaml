@@ -197,6 +197,10 @@ profile:
   permissions: Permissions
   title: Profil de {user}
   total_sent: '# de messages'
+points:
+  title: Points
+  description_me: Vous avez **{points}** points et vous êtes à la **{pos}**ème place sur Kolumbao !
+  description_other: '**{user}** a **{points}** points et il/elle est à la **{pos}**ème place sur Kolumbao !'
 pub:
   explanation:
     text: "**Voici une explication rapide:**\n\n- C'est un bot qui vous permet de\

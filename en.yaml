@@ -202,6 +202,10 @@ profile:
   permissions: Permissions
   title: '{user} profile'
   total_sent: '# of messages'
+points:
+  title: Points
+  description_me: You have **{points}** points and are rank **{pos}** on Kolumbao!
+  description_other: '**{user}** has **{points}** points and is rank **{pos}** on Kolumbao!'
 pub:
   explanation:
     text: '**Here''s a quick explanation:**
