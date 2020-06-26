@@ -120,6 +120,7 @@ interaction:
 language:
   help_text: Change your preferred interface language
 leaderboard:
+  header: Points Utility
   title: Leaderboard
 lookup:
   description: The message [here]({link}) came from **{guild}** and was written by **{user}**.
