@@ -22,6 +22,7 @@ community:
 channel:
   welcome: '**{name}** viennent d''ajouter **{path_name}**, ils vont bientôt commencer à recevoir des messages!'
   add:
+    fail: Une erreur s'est produite en cours de créer la connexion. Est-ce que je peux voir le salon ? Est-ce que j'ai la permission d'envoyer des messages et de créer des salons ?
     complete: L'installation a été un succès ! Consultez <#{channel}>
     exact_name: |
       **Vous devez utiliser le nom exact du salon!**

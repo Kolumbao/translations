@@ -26,6 +26,7 @@ details:
 channel:
   welcome: '**{name}** just added **{path_name}**, they''ll start seeing messages shortly!'
   add:
+    fail: An error occured while setting up the connection! Can I see the channel? Do I have permission to send messages and create channels?
     help_text: Add new channels!
     complete: Installation was a success! Check it out <#{channel}>
     exact_name: |
@@ -77,7 +78,7 @@ error:
   not_found: That command was not found
   other: Another error occured (`{name}`). The developers have been notified. Head
     to https://discord.gg/9UBdZHu for support.
-  permissions: 'You are misisng at least one of the following Kolumbao permissions:
+  permissions: 'You are missing at least one of the following Kolumbao permissions:
     {permissions}'
   user_missing_permissions: 'You are missing at least one of the following permissions:
     {permissions}'
