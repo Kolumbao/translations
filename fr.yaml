@@ -62,6 +62,7 @@ setup:
 delete:
   help_text: Supprimer un message sur les serveurs
 error:
+  dm: Si jamais vous avez besoin de l'aide avec ce bot, envoyez-moi un message privé pour obtenir de l'aide 1 ̀à 1 !
   bot_missing_permissions: 'Le bot manque au moins une des permissions suivantes :
     {permissions}'
   invalid_arguments: "Un ou plusieurs des arguments requis \xE9taient invalides/inexistants.\

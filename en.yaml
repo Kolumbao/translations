@@ -71,6 +71,7 @@ setup:
 delete:
   help_text: Delete a message across the servers
 error:
+  dm: If you ever need help with the bot, message me directly to get 1-to-1 support!
   bot_missing_permissions: 'The bot is missing at least one of the following permissions:
     {permissions}'
   invalid_arguments: One or more of the required arguments were invalid/non-existent.
