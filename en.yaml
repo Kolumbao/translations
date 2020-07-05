@@ -226,7 +226,12 @@ pub:
       - Kolumbao uses a bit of magic called "webhooks" to share your messages across
       servers.
 
-      - After their names, certain people have emojis, these all mean different things.'
+      - After their names, certain people have emojis, these all mean different things.
+      
+      - You earn points for each message! See your points with `kb!points`
+      
+      
+      *Summoned by **{user}***'
   rules:
     rule:
       '1': Do not break Discord ToS/Community Guidelines.
@@ -248,7 +253,10 @@ pub:
       **And here are the rules for this channel:**
 
 
-      {rules}'
+      {rules}
+      
+
+      *Summoned by **{user}***'
 record:
   help_text: View the details of a mute
 report:
