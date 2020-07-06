@@ -24,7 +24,7 @@ search:
 details:
   help_text: Get details on a channel
 channel:
-  welcome: '**{name}** just added **{path_name}**, they''ll start seeing messages shortly!'
+  welcome: '**{name} ({id})** just added **{path_name}**, they''ll start seeing messages shortly!'
   add:
     fail: An error occured while setting up the connection! Can I see the channel? Do I have permission to send messages and create channels?
     help_text: Add new channels!
