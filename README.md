@@ -2,7 +2,7 @@
 This is the translations repository for Kolumbao.
 
 ## Adding translations
-All translations are listed in `.jsonc` (JSON with Comments) files, and [the English file](https://github.com/Kolumbao/translations/blob/master/en.jsonc) should be considered the primary file.
+All translations are listed in `.YAML` (YAML Ain't Markup Language) files, and [the English file](https://github.com/Kolumbao/translations/blob/master/en.yaml) should be considered the primary file.
 
 Please ensure that your files are correctly formatted before making a pull request - they will be checked before being added however.
 
