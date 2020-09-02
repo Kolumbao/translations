@@ -70,6 +70,9 @@ setup:
     content: We recommend you try out **Kolumbao General**, the flagship channel of Kolumbao. Get it with `kb!channel add kb-general`.
 delete:
   help_text: Delete a message across the servers
+  example_text: |
+    Structure: `kb!delete -u <user> -c <amount>`
+    Example: `kb!delete -u 151347084602245120 -c 2`
 error:
   dm: If you ever need help with the bot, message me directly to get 1-to-1 support!
   bot_missing_permissions: 'The bot is missing at least one of the following permissions:
@@ -176,6 +179,8 @@ permission:
   PERMISSION_MODIFY: Modify Permissions
   TRAINEE: Trainee*
   VIP: VIP*
+  DEVELOPER: Developer
+  BOT_RESTART: Restart Bot
 permissions:
   add:
     help_text: Add permissions to a user
