@@ -1,3 +1,11 @@
+![](https://kolumbao.com/img/logo/blackname.svg)
+# Warning!
+This repository is currently inactive, and external translations are not currently being implemented. It will be opened in the near future.
+
+To stay up to date, join the [Discord server](https://discord.com/invite/9UBdZHu).
+
+---
+
 # Translations
 This is the translations repository for Kolumbao.
 
